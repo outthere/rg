@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    menu_blocks:
+      title: Menu Blocks
+  admin:
+    menu_blocks:
+      actions:
+        create_new: Add New Menu Block
+        reorder: Reorder Menu Blocks
+        reorder_done: Done Reordering Menu Blocks
+      records:
+        title: Menu Blocks
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Menu Blocks yet. Click "Add New Menu Block" to add your first menu block.
+      menu_block:
+        view_live_html: View this menu block live <br/><em>(opens in a new window)</em>
+        edit: Edit this menu block
+        delete: Remove this menu block forever
+  menu_blocks:
+    show:
+      other: Other Menu Blocks

@@ -1,0 +1,28 @@
+<head>
+  <!-- meta http-equiv="X-UA-Compatible" content="IE=7" / -->
+  <title><%= browser_title(yield(:title)) %></title>
+
+  <%= csrf_meta_tag %>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag "styles.css" %>
+    <%#= stylesheet_link_tag "livetwitter.css" %>
+
+  <% content_for :javascripts do %>
+    <%= javascript_include_tag('html5', 'jquery-1.7.min', 'jquery.tools','script' ) %>
+  <% end %>
+  <% content_for :javascripts do %>
+    <%= javascript_include_tag('jquery.livetwitter.min.js') %>
+  <% end %>
+
+
+  <%= yield :javascripts %>
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta charset='<%= Refinery::Application.config.encoding %>' />
+
+  <%= "<meta name=\"keywords\" content=\"#{@meta.meta_keywords}\" />".html_safe if @meta.meta_keywords.present? %>
+  <%= "<meta name=\"description\" content=\"#{@meta.meta_description}\" />".html_safe if @meta.meta_description.present? -%>
+
+</head>

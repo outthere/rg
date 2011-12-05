@@ -1,3 +1,8 @@
+PATH
+  remote: vendor/engines
+  specs:
+    refinerycms-menu_blocks (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -28,6 +33,8 @@ GEM
       activemodel (= 3.0.11)
       activesupport (= 3.0.11)
     activesupport (3.0.11)
+    acts-as-taggable-on (2.1.1)
+      rails
     acts_as_indexed (0.7.7)
     arel (2.0.10)
     awesome_nested_set (2.0.2)
@@ -43,6 +50,7 @@ GEM
       rack
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    filters_spam (0.3)
     friendly_id_globalize3 (3.2.1.5)
       babosa (~> 0.3.0)
     globalize3 (0.1.0)
@@ -99,6 +107,11 @@ GEM
       friendly_id_globalize3 (~> 3.2.1)
       refinerycms-core (= 1.0.9)
     refinerycms-base (1.0.9)
+    refinerycms-blog (1.6.2)
+      acts-as-taggable-on
+      filters_spam (~> 0.2)
+      refinerycms-core (~> 1.0.3)
+      seo_meta (~> 1.1.0)
     refinerycms-core (1.0.9)
       acts_as_indexed (~> 0.7)
       awesome_nested_set (~> 2.0)
@@ -121,6 +134,10 @@ GEM
       dragonfly (~> 0.9.0)
       rack-cache (>= 0.5.3)
       refinerycms-core (= 1.0.9)
+    refinerycms-inquiries (1.0.1)
+      filters_spam (~> 0.2)
+    refinerycms-page-images (1.0.4)
+      refinerycms-pages (>= 0.9.9.1)
     refinerycms-pages (1.0.9)
       activerecord (~> 3.0.10)
       awesome_nested_set (~> 2.0)
@@ -149,6 +166,7 @@ GEM
     warden (1.0.6)
       rack (>= 1.0)
     will_paginate (3.0.2)
+    yaml_db (0.2.2)
 
 PLATFORMS
   ruby
@@ -156,4 +174,9 @@ PLATFORMS
 DEPENDENCIES
   mysql2 (< 0.3)
   refinerycms (~> 1.0.9)
+  refinerycms-blog (~> 1.6)
   refinerycms-i18n (~> 1.0.0)
+  refinerycms-inquiries (~> 1.0)
+  refinerycms-menu_blocks (= 1.0)!
+  refinerycms-page-images (~> 1.0)
+  yaml_db

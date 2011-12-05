@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    menu_blocks:
+      title: Menu Blocks
+  admin:
+    menu_blocks:
+      actions:
+        create_new: Maak een nieuwe Menu Block
+        reorder: Wijzig de volgorde van de Menu Blocks
+        reorder_done: Klaar met het wijzingen van de volgorde van de Menu Blocks
+      records:
+        title: Menu Blocks
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Menu Blocks. Druk op 'Maak een nieuwe Menu Block' om de eerste aan te maken.
+      menu_block:
+        view_live_html: Bekijk deze menu block op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze menu block
+        delete: Verwijder deze menu block voor eeuwig
+  menu_blocks:
+    show:
+      other: Andere Menu Blocks

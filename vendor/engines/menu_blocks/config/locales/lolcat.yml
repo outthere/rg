@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    menu_blocks:
+      title: Menu Blocks
+  admin:
+    menu_blocks:
+      actions:
+        create_new: CREATE NEW Menu Block
+        reorder: REORDR Menu Blocks
+        reorder_done: DUN REORDERIN Menu Blocks
+      records:
+        title: Menu Blocks
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Menu Blocks YET. CLICK "CREATE NEW Menu Block" 2 ADD UR FURST menu block.
+      menu_block:
+        view_live_html: VIEW DIS menu block LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS menu block
+        delete: REMOOV DIS menu block FOREVR
+  menu_blocks:
+    show:
+      other: OTHR Menu Blocks

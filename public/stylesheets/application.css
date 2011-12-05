@@ -2,3 +2,14 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+/* multiselect styles */
+.multiselect {
+  width: 460px;
+  height: 200px;
+}
+
+#switcher {
+  margin-top: 20px;
+}
+
+form {margin: 0; padding: 0;}

@@ -1,0 +1,36 @@
+<div class="wrap hdr">
+	<header>
+		<a class="logo" href="/"></a>
+
+      <%= render :partial => "/shared/menu", :locals => {
+        :roots => @menu_pages.select{|p| p.parent_id == Page.find_by_constant_name('top_menu').id}
+      } %>
+
+        <%= language_selector %>
+	</header>
+</div>
+<div>
+  <%#= @page.parts.inspect %>
+  <%#= @page.slug.inspect %>
+  <%#= Page.find_by_id(35).parent.slug.inspect %>
+  <%#= Page.find_by_id(35).parent.id.inspect %>
+  <%#= my_path(35).inspect %>
+  <%#= @page.nested_path.inspect %>
+</div>
+<!-- div>
+<nav id='locale'>
+   <%#= @menu_pages.inspect %>
+
+
+ </nav>
+  <%# @menu_pages = ::Page.live.in_menu %>
+  ++++++++++
+
+  <div class='submenu'>
+    <%#= render :partial => "/shared/menu", :locals => {
+      #:roots => @menu_pages.select{|p| p.parent_id == @page.root.id}
+      :roots => @menu_pages.select{|p| p.parent_id == 25}
+    } %>
+  </div>
+
+</div -->

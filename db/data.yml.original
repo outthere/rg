@@ -1,0 +1,1800 @@
+
+---
+blog_posts:
+  columns:
+  - id
+  - title
+  - body
+  - draft
+  - published_at
+  - created_at
+  - updated_at
+  - user_id
+  - cached_slug
+  - custom_url
+  - custom_teaser
+  records: 
+  - - 1
+    - Start using blog
+    - ! "<p>1st Blog&#160; post body&#160;&#160; \r\nLorem Ipsum is simply dummy text
+      of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley
+      of type and scrambled it to make a type specimen book. It has survived not only
+      five centuries, but also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset sheets
+      containing Lorem Ipsum passages, and more recently with desktop publishing software
+      like Aldus PageMaker including versions of Lorem Ipsum.</p>"
+    - false
+    - 2011-11-30 06:46:00.000000000Z
+    - 2011-11-30 06:49:08.000000000Z
+    - 2011-11-30 06:49:25.000000000Z
+    - 1
+    - start-using-blog
+    - ''
+    - ''
+
+---
+image_pages:
+  columns:
+  - image_id
+  - page_id
+  - position
+  - caption
+  records: 
+  - - 1
+    - 7
+    - 0
+    - !!null 
+
+---
+images:
+  columns:
+  - id
+  - image_mime_type
+  - image_name
+  - image_size
+  - image_width
+  - image_height
+  - created_at
+  - updated_at
+  - image_uid
+  - image_ext
+  records: 
+  - - 1
+    - image/gif
+    - 11937609.gif
+    - 11884
+    - 100
+    - 100
+    - 2011-11-24 09:08:05.000000000Z
+    - 2011-11-24 09:08:05.000000000Z
+    - 2011/11/24/11_08_05_870_11937609.gif
+    - gif
+
+---
+menu_blocks:
+  columns:
+  - id
+  - name
+  - title
+  - deletable
+  - position
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - sdsdf
+    - dfefwe
+    - 1
+    - !!null 
+    - 2011-11-28 08:02:33.000000000Z
+    - 2011-11-28 08:02:33.000000000Z
+
+---
+page_part_translations:
+  columns:
+  - id
+  - page_part_id
+  - locale
+  - body
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - en
+    - <p>Welcome to our site. This is just a place holder page while we gather our
+      content.</p>
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 2
+    - 2
+    - en
+    - <p>This is another block of content over here.</p>
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 3
+    - 3
+    - en
+    - <h2>Sorry, there was a problem...</h2><p>The page you requested was not found.</p><p><a
+      href='/'>Return to the home page</a></p>
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 4
+    - 4
+    - en
+    - ! '<p>This is just a standard text page example. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet
+      nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis
+      metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris.
+      Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus
+      consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero
+      hendrerit dapibus.
+
+
+      Integer interdum purus id erat. Duis nec velit vitae dolor mattis euismod. Class
+      aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      Suspendisse pellentesque dignissim lacus. Nulla semper euismod arcu. Suspendisse
+      egestas, erat a consectetur dapibus, felis orci cursus eros, et sollicitudin
+      purus urna et metus. Integer eget est sed nunc euismod vestibulum. Integer nulla
+      dui, tristique in, euismod et, interdum imperdiet, enim. Mauris at lectus. Sed
+      egestas tortor nec mi.</p>'
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 5
+    - 5
+    - en
+    - <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla
+      nisi a elit. Duis ultricies orci ut arcu. Ut ac nibh. Duis blandit rhoncus magna.
+      Pellentesque semper risus ut magna. Etiam pulvinar tellus eget diam. Morbi blandit.
+      Donec pulvinar mauris at ligula. Sed pellentesque, ipsum id congue molestie,
+      lectus risus egestas pede, ac viverra diam lacus ac urna. Aenean elit.</p>
+    - 2011-11-24 07:08:24.000000000Z
+    - 2011-11-24 07:08:24.000000000Z
+  - - 12
+    - 12
+    - en
+    - ''
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 13
+    - 13
+    - en
+    - ''
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 21
+    - 21
+    - en
+    - !!null 
+    - 2011-11-25 11:09:04.000000000Z
+    - 2011-11-25 11:09:04.000000000Z
+  - - 22
+    - 22
+    - en
+    - !!null 
+    - 2011-11-25 11:09:04.000000000Z
+    - 2011-11-25 11:09:04.000000000Z
+  - - 32
+    - 1
+    - ru
+    - <p>body</p>
+    - 2011-11-28 11:10:54.000000000Z
+    - 2011-11-28 11:10:54.000000000Z
+  - - 33
+    - 2
+    - ru
+    - ''
+    - 2011-11-28 11:10:54.000000000Z
+    - 2011-11-28 11:10:54.000000000Z
+  - - 34
+    - 1
+    - es
+    - <p>spanish body</p>
+    - 2011-11-28 11:11:38.000000000Z
+    - 2011-11-28 11:11:38.000000000Z
+  - - 35
+    - 2
+    - es
+    - ''
+    - 2011-11-28 11:11:38.000000000Z
+    - 2011-11-28 11:11:38.000000000Z
+  - - 36
+    - 23
+    - en
+    - <p>body f1</p>
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 37
+    - 24
+    - en
+    - ''
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 38
+    - 25
+    - en
+    - <p>body f2</p>
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 39
+    - 26
+    - en
+    - ''
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 40
+    - 27
+    - en
+    - <p>body s1</p>
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 41
+    - 28
+    - en
+    - ''
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 42
+    - 29
+    - en
+    - <p>body s2</p>
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 43
+    - 30
+    - en
+    - ''
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 44
+    - 31
+    - en
+    - <p>body s3</p>
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+  - - 45
+    - 32
+    - en
+    - ''
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+
+---
+page_parts:
+  columns:
+  - id
+  - page_id
+  - title
+  - body
+  - position
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - Body
+    - <p>body</p>
+    - 0
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-29 09:10:24.000000000Z
+  - - 2
+    - 1
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-29 09:10:24.000000000Z
+  - - 3
+    - 2
+    - Body
+    - <h2>Sorry, there was a problem...</h2><p>The page you requested was not found.</p><p><a
+      href='/'>Return to the home page</a></p>
+    - 0
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 4
+    - 3
+    - Body
+    - ! '<p>This is just a standard text page example. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet
+      nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis
+      metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris.
+      Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus
+      consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero
+      hendrerit dapibus.
+
+
+      Integer interdum purus id erat. Duis nec velit vitae dolor mattis euismod. Class
+      aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      Suspendisse pellentesque dignissim lacus. Nulla semper euismod arcu. Suspendisse
+      egestas, erat a consectetur dapibus, felis orci cursus eros, et sollicitudin
+      purus urna et metus. Integer eget est sed nunc euismod vestibulum. Integer nulla
+      dui, tristique in, euismod et, interdum imperdiet, enim. Mauris at lectus. Sed
+      egestas tortor nec mi.</p>'
+    - 0
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 5
+    - 3
+    - Side Body
+    - <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla
+      nisi a elit. Duis ultricies orci ut arcu. Ut ac nibh. Duis blandit rhoncus magna.
+      Pellentesque semper risus ut magna. Etiam pulvinar tellus eget diam. Morbi blandit.
+      Donec pulvinar mauris at ligula. Sed pellentesque, ipsum id congue molestie,
+      lectus risus egestas pede, ac viverra diam lacus ac urna. Aenean elit.</p>
+    - 1
+    - 2011-11-24 07:08:24.000000000Z
+    - 2011-11-24 07:08:24.000000000Z
+  - - 12
+    - 7
+    - Body
+    - ''
+    - 0
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 13
+    - 7
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 21
+    - 12
+    - Body
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:09:04.000000000Z
+    - 2011-11-25 11:09:04.000000000Z
+  - - 22
+    - 12
+    - Side Body
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:09:04.000000000Z
+    - 2011-11-25 11:09:04.000000000Z
+  - - 23
+    - 13
+    - Body
+    - <p>body f1</p>
+    - 0
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 24
+    - 13
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 25
+    - 14
+    - Body
+    - <p>body f2</p>
+    - 0
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 26
+    - 14
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 27
+    - 15
+    - Body
+    - <p>body s1</p>
+    - 0
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 28
+    - 15
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 29
+    - 16
+    - Body
+    - <p>body s2</p>
+    - 0
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 30
+    - 16
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 31
+    - 17
+    - Body
+    - <p>body s3</p>
+    - 0
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+  - - 32
+    - 17
+    - Side Body
+    - ''
+    - 1
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+
+---
+page_translations:
+  columns:
+  - id
+  - page_id
+  - locale
+  - title
+  - custom_title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - en
+    - Home
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 2
+    - 2
+    - en
+    - Page not found
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 3
+    - 3
+    - en
+    - About
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+  - - 7
+    - 7
+    - en
+    - Menu Blocks
+    - ''
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 12
+    - 12
+    - en
+    - Blog
+    - !!null 
+    - 2011-11-25 11:09:03.000000000Z
+    - 2011-11-25 11:09:03.000000000Z
+  - - 18
+    - 1
+    - ru
+    - Home rus title
+    - ''
+    - 2011-11-28 11:10:54.000000000Z
+    - 2011-11-29 09:10:24.000000000Z
+  - - 19
+    - 1
+    - es
+    - Home spanish
+    - ''
+    - 2011-11-28 11:11:38.000000000Z
+    - 2011-11-29 09:10:10.000000000Z
+  - - 20
+    - 13
+    - en
+    - first level 1
+    - ''
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 21
+    - 14
+    - en
+    - first level 2
+    - ''
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 22
+    - 15
+    - en
+    - second level 1
+    - ''
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 23
+    - 16
+    - en
+    - second level 2
+    - ''
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 24
+    - 17
+    - en
+    - second level 3
+    - ''
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+
+---
+pages:
+  columns:
+  - id
+  - parent_id
+  - position
+  - path
+  - created_at
+  - updated_at
+  - show_in_menu
+  - link_url
+  - menu_match
+  - deletable
+  - custom_title_type
+  - draft
+  - skip_to_first_child
+  - lft
+  - rgt
+  - depth
+  records: 
+  - - 1
+    - !!null 
+    - 0
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-29 09:10:24.000000000Z
+    - true
+    - /
+    - !!null 
+    - false
+    - none
+    - false
+    - false
+    - 1
+    - 4
+    - !!null 
+  - - 2
+    - 1
+    - 0
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+    - false
+    - !!null 
+    - ^/404$
+    - false
+    - none
+    - false
+    - false
+    - 2
+    - 3
+    - !!null 
+  - - 3
+    - !!null 
+    - 1
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+    - true
+    - !!null 
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 5
+    - 16
+    - !!null 
+  - - 7
+    - !!null 
+    - 2
+    - !!null 
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+    - true
+    - /menu_blocks
+    - ^/menu_blocks(\/|\/.+?|)$
+    - false
+    - none
+    - false
+    - false
+    - 17
+    - 18
+    - !!null 
+  - - 12
+    - !!null 
+    - 4
+    - !!null 
+    - 2011-11-25 11:09:03.000000000Z
+    - 2011-11-25 11:09:03.000000000Z
+    - true
+    - /blog
+    - ^/blogs?(/|/.+?|)$
+    - true
+    - none
+    - false
+    - false
+    - 19
+    - 20
+    - !!null 
+  - - 13
+    - 3
+    - 5
+    - !!null 
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 6
+    - 11
+    - !!null 
+  - - 14
+    - 3
+    - 6
+    - !!null 
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 12
+    - 15
+    - !!null 
+  - - 15
+    - 13
+    - 7
+    - !!null 
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 7
+    - 8
+    - !!null 
+  - - 16
+    - 13
+    - 8
+    - !!null 
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 9
+    - 10
+    - !!null 
+  - - 17
+    - 14
+    - 9
+    - !!null 
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 13
+    - 14
+    - !!null 
+
+---
+refinery_settings:
+  columns:
+  - id
+  - name
+  - value
+  - destroyable
+  - created_at
+  - updated_at
+  - scoping
+  - restricted
+  - callback_proc_as_string
+  - form_value_type
+  records: 
+  - - 1
+    - use_marketable_urls
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-24 07:08:22.000000000Z
+    - 2011-11-24 07:08:22.000000000Z
+    - pages
+    - false
+    - !!null 
+    - text_area
+  - - 2
+    - i18n_translation_enabled
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-24 07:08:22.000000000Z
+    - 2011-11-24 07:08:22.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 3
+    - i18n_translation_default_frontend_locale
+    - ! '--- :en
+
+      ...
+
+'
+    - true
+    - 2011-11-24 07:08:23.000000000Z
+    - 2011-11-24 07:08:23.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 4
+    - dragonfly_secret
+    - ! '--- 8e8fca83d58d08ec51b9c787b6e64156f2bce6d403e212ab
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:09:01.000000000Z
+    - 2011-11-24 08:09:01.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 5
+    - approximate_ascii
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:09:02.000000000Z
+    - 2011-11-24 08:09:02.000000000Z
+    - pages
+    - false
+    - !!null 
+    - text_area
+  - - 6
+    - strip_non_ascii
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:09:02.000000000Z
+    - 2011-11-24 08:09:02.000000000Z
+    - pages
+    - false
+    - !!null 
+    - text_area
+  - - 7
+    - approximate_ascii
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:09:03.000000000Z
+    - 2011-11-24 08:09:03.000000000Z
+    - blog
+    - false
+    - !!null 
+    - text_area
+  - - 8
+    - strip_non_ascii
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:09:03.000000000Z
+    - 2011-11-24 08:09:03.000000000Z
+    - blog
+    - false
+    - !!null 
+    - text_area
+  - - 9
+    - i18n_translation_locales
+    - '---
+
+      :en: English
+
+      :fr: Français
+
+      :nl: Nederlands
+
+      :pt-BR: Português
+
+      :da: Dansk
+
+      :nb: Norsk Bokmål
+
+      :sl: Slovenian
+
+      :es: Español
+
+      :it: Italiano
+
+      :de: Deutsch
+
+      :lv: Latviski
+
+      :ru: Русский
+
+      :sv: Svenska
+
+      :pl: Polski
+
+      :zh-CN: Simplified Chinese
+
+      :zh-TW: Traditional Chinese
+
+      :el: Ελληνικά
+
+      :rs: Srpski
+
+      :cs: Česky
+
+      :sk: Slovenský
+
+      :jp: 日本語
+
+'
+    - true
+    - 2011-11-24 08:28:34.000000000Z
+    - 2011-11-24 08:28:34.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 10
+    - i18n_translation_default_locale
+    - ! '--- :en
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:28:34.000000000Z
+    - 2011-11-24 08:28:34.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 11
+    - i18n_translation_current_locale
+    - ! '--- :en
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:28:34.000000000Z
+    - 2011-11-24 08:28:34.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 12
+    - i18n_translation_frontend_locales
+    - ! '---
+
+      - :en
+
+      - :ru
+
+      - :es
+
+'
+    - true
+    - 2011-11-24 08:28:34.000000000Z
+    - 2011-11-28 09:28:08.000000000Z
+    - refinery
+    - false
+    - !!null 
+    - text_area
+  - - 13
+    - site_name
+    - ! '--- Ruby Gardens
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:28:51.000000000Z
+    - 2011-11-30 07:06:58.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 14
+    - use_resource_caching
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-24 08:28:51.000000000Z
+    - 2011-11-24 08:28:51.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 15
+    - use_google_ajax_libraries
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:28:51.000000000Z
+    - 2011-11-24 08:28:51.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 16
+    - activity_show_limit
+    - ! '--- 7
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:29:16.000000000Z
+    - 2011-11-24 08:29:16.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 17
+    - image_views
+    - ! '---
+
+      - :grid
+
+      - :list
+
+'
+    - true
+    - 2011-11-24 08:29:25.000000000Z
+    - 2011-11-24 08:29:25.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 18
+    - preferred_image_view
+    - ! '--- :grid
+
+      ...
+
+'
+    - true
+    - 2011-11-24 08:29:25.000000000Z
+    - 2011-11-24 08:29:25.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 19
+    - cache_pages_backend
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 08:58:50.000000000Z
+    - 2011-11-24 08:58:50.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 20
+    - default_page_parts
+    - ! '---
+
+      - Body
+
+      - Side Body
+
+'
+    - true
+    - 2011-11-24 09:48:26.000000000Z
+    - 2011-11-24 09:48:26.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 21
+    - page_title
+    - "---\n:chain_page_title: false\n:ancestors:\n  :separator: ! ' | '\n  :class:
+      ancestors\n  :tag: span\n:page_title:\n  :class: !!null \n  :tag: !!null \n
+      \ :wrap_if_not_chained: false\n"
+    - true
+    - 2011-11-24 10:51:48.000000000Z
+    - 2011-11-24 10:51:48.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 22
+    - superuser_can_assign_roles
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-24 13:28:48.000000000Z
+    - 2011-11-24 13:28:48.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 23
+    - new_page_parts
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-25 10:58:15.000000000Z
+    - 2011-11-25 10:58:15.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 24
+    - page_images_captions
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-25 11:10:02.000000000Z
+    - 2011-11-25 11:10:02.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 25
+    - user_image_sizes
+    - '---
+
+      :small: 110x110>
+
+      :medium: 225x255>
+
+      :large: 450x450>
+
+'
+    - false
+    - 2011-11-25 11:16:42.000000000Z
+    - 2011-11-25 11:16:42.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 26
+    - authenticity_token_on_frontend
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-25 11:37:58.000000000Z
+    - 2011-11-25 11:37:58.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 27
+    - frontend_refinery_stylesheets_enabled
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-25 11:37:59.000000000Z
+    - 2011-11-25 11:37:59.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 28
+    - menu_hide_children
+    - ! '--- ''false''
+
+'
+    - true
+    - 2011-11-25 11:37:59.000000000Z
+    - 2011-11-25 11:37:59.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 29
+    - refinery_menu_cache_action_suffix
+    - ! '--- site_menu
+
+      ...
+
+'
+    - true
+    - 2011-11-28 15:05:05.000000000Z
+    - 2011-11-28 15:05:05.000000000Z
+    - !!null 
+    - false
+    - !!null 
+    - text_area
+  - - 30
+    - comments_allowed
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-30 06:45:46.000000000Z
+    - 2011-11-30 06:45:46.000000000Z
+    - blog
+    - false
+    - !!null 
+    - text_area
+  - - 31
+    - comment_moderation
+    - ! '--- ''true''
+
+'
+    - true
+    - 2011-11-30 06:45:46.000000000Z
+    - 2011-11-30 06:45:46.000000000Z
+    - blog
+    - false
+    - !!null 
+    - text_area
+
+---
+roles:
+  columns:
+  - id
+  - title
+  records: 
+  - - 1
+    - Refinery
+  - - 2
+    - Superuser
+
+---
+roles_users:
+  columns:
+  - user_id
+  - role_id
+  records: 
+  - - 1
+    - 1
+  - - 1
+    - 2
+
+---
+seo_meta:
+  columns:
+  - id
+  - seo_meta_id
+  - seo_meta_type
+  - browser_title
+  - meta_keywords
+  - meta_description
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 07:08:27.000000000Z
+    - 2011-11-24 07:08:27.000000000Z
+  - - 2
+    - 2
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 07:08:27.000000000Z
+    - 2011-11-24 07:08:27.000000000Z
+  - - 3
+    - 3
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 07:08:27.000000000Z
+    - 2011-11-24 07:08:27.000000000Z
+  - - 4
+    - 4
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 09:48:26.000000000Z
+    - 2011-11-24 09:48:26.000000000Z
+  - - 5
+    - 5
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 10:51:03.000000000Z
+    - 2011-11-24 10:51:03.000000000Z
+  - - 6
+    - 6
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-24 10:57:14.000000000Z
+    - 2011-11-24 10:57:14.000000000Z
+  - - 7
+    - 7
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-24 11:13:16.000000000Z
+    - 2011-11-25 11:16:57.000000000Z
+  - - 8
+    - 8
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - 2011-11-25 10:59:02.000000000Z
+  - - 9
+    - 9
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - 2011-11-25 10:59:02.000000000Z
+  - - 10
+    - 10
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - 2011-11-25 10:59:02.000000000Z
+  - - 11
+    - 11
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - 2011-11-25 10:59:02.000000000Z
+  - - 12
+    - 12
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:09:03.000000000Z
+    - 2011-11-25 11:09:03.000000000Z
+  - - 13
+    - 13
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - 2011-11-25 11:17:57.000000000Z
+  - - 14
+    - 14
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - 2011-11-25 11:17:57.000000000Z
+  - - 15
+    - 15
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - 2011-11-25 11:17:57.000000000Z
+  - - 16
+    - 16
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - 2011-11-25 11:17:57.000000000Z
+  - - 17
+    - 17
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-11-25 11:17:58.000000000Z
+    - 2011-11-25 11:17:58.000000000Z
+  - - 18
+    - 18
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-28 11:10:54.000000000Z
+    - 2011-11-28 11:10:54.000000000Z
+  - - 19
+    - 19
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-28 11:11:38.000000000Z
+    - 2011-11-28 11:11:38.000000000Z
+  - - 20
+    - 20
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-29 09:12:40.000000000Z
+    - 2011-11-29 09:12:40.000000000Z
+  - - 21
+    - 21
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-29 09:13:00.000000000Z
+    - 2011-11-29 09:13:00.000000000Z
+  - - 22
+    - 22
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-29 09:13:23.000000000Z
+    - 2011-11-29 09:13:23.000000000Z
+  - - 23
+    - 23
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-29 09:13:43.000000000Z
+    - 2011-11-29 09:13:43.000000000Z
+  - - 24
+    - 24
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-11-29 09:14:05.000000000Z
+    - 2011-11-29 09:14:05.000000000Z
+  - - 25
+    - 1
+    - BlogPost
+    - ''
+    - ''
+    - ''
+    - 2011-11-30 06:49:08.000000000Z
+    - 2011-11-30 06:49:08.000000000Z
+
+---
+slugs:
+  columns:
+  - id
+  - name
+  - sluggable_id
+  - sequence
+  - sluggable_type
+  - scope
+  - created_at
+  - locale
+  records: 
+  - - 1
+    - home
+    - 1
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - en
+  - - 2
+    - page-not-found
+    - 2
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - en
+  - - 3
+    - about
+    - 3
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-24 07:08:23.000000000Z
+    - en
+  - - 4
+    - admin
+    - 1
+    - 1
+    - User
+    - !!null 
+    - 2011-11-24 08:29:14.000000000Z
+    - en
+  - - 5
+    - menus-page
+    - 4
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-24 09:48:26.000000000Z
+    - en
+  - - 6
+    - menu-blocks
+    - 5
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-24 10:51:03.000000000Z
+    - en
+  - - 7
+    - menu-blocks
+    - 6
+    - 2
+    - Page
+    - !!null 
+    - 2011-11-24 10:57:14.000000000Z
+    - en
+  - - 8
+    - menu-blocks
+    - 7
+    - 3
+    - Page
+    - !!null 
+    - 2011-11-24 11:13:16.000000000Z
+    - en
+  - - 9
+    - home
+    - 8
+    - 2
+    - Page
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - en
+  - - 10
+    - page-not-found
+    - 9
+    - 2
+    - Page
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - en
+  - - 11
+    - about
+    - 10
+    - 2
+    - Page
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - en
+  - - 12
+    - menu-blocks
+    - 11
+    - 4
+    - Page
+    - !!null 
+    - 2011-11-25 10:59:02.000000000Z
+    - en
+  - - 13
+    - blog-page
+    - 12
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-25 11:09:03.000000000Z
+    - en
+  - - 14
+    - blog-page
+    - 13
+    - 2
+    - Page
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - en
+  - - 15
+    - home
+    - 14
+    - 3
+    - Page
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - en
+  - - 16
+    - page-not-found
+    - 15
+    - 3
+    - Page
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - en
+  - - 17
+    - about
+    - 16
+    - 3
+    - Page
+    - !!null 
+    - 2011-11-25 11:17:57.000000000Z
+    - en
+  - - 18
+    - menu-blocks
+    - 17
+    - 5
+    - Page
+    - !!null 
+    - 2011-11-25 11:17:58.000000000Z
+    - en
+  - - 19
+    - rus-title
+    - 1
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-28 11:10:54.000000000Z
+    - ru
+  - - 20
+    - spanish
+    - 1
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-28 11:11:38.000000000Z
+    - es
+  - - 21
+    - home-spanish
+    - 1
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:10:10.000000000Z
+    - es
+  - - 22
+    - home-rus-title
+    - 1
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:10:24.000000000Z
+    - ru
+  - - 23
+    - first-level-1
+    - 13
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:12:40.000000000Z
+    - en
+  - - 24
+    - first-level-2
+    - 14
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:13:00.000000000Z
+    - en
+  - - 25
+    - second-level-1
+    - 15
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:13:23.000000000Z
+    - en
+  - - 26
+    - second-level-2
+    - 16
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:13:43.000000000Z
+    - en
+  - - 27
+    - second-level-3
+    - 17
+    - 1
+    - Page
+    - !!null 
+    - 2011-11-29 09:14:05.000000000Z
+    - en
+  - - 28
+    - start-using-blog
+    - 1
+    - 1
+    - BlogPost
+    - !!null 
+    - 2011-11-30 06:49:08.000000000Z
+    - en
+
+---
+taggings:
+  columns:
+  - id
+  - tag_id
+  - taggable_id
+  - taggable_type
+  - tagger_id
+  - tagger_type
+  - context
+  - created_at
+  records: 
+  - - 1
+    - 1
+    - 1
+    - BlogPost
+    - !!null 
+    - !!null 
+    - tags
+    - 2011-11-30 06:49:08.000000000Z
+  - - 2
+    - 2
+    - 1
+    - BlogPost
+    - !!null 
+    - !!null 
+    - tags
+    - 2011-11-30 06:49:08.000000000Z
+  - - 3
+    - 3
+    - 1
+    - BlogPost
+    - !!null 
+    - !!null 
+    - tags
+    - 2011-11-30 06:49:08.000000000Z
+
+---
+tags:
+  columns:
+  - id
+  - name
+  records: 
+  - - 1
+    - 1st
+  - - 2
+    - lorem
+  - - 3
+    - tags
+
+---
+user_plugins:
+  columns:
+  - id
+  - user_id
+  - name
+  - position
+  records: 
+  - - 23
+    - 1
+    - refinery_dashboard
+    - 0
+  - - 24
+    - 1
+    - refinery_files
+    - 1
+  - - 25
+    - 1
+    - refinery_images
+    - 2
+  - - 26
+    - 1
+    - refinery_pages
+    - 3
+  - - 27
+    - 1
+    - refinery_settings
+    - 4
+  - - 28
+    - 1
+    - refinery_users
+    - 5
+  - - 29
+    - 1
+    - refinerycms_blog
+    - 6
+  - - 30
+    - 1
+    - refinerycms_base
+    - 7
+  - - 31
+    - 1
+    - refinery_core
+    - 8
+  - - 32
+    - 1
+    - refinery_dialogs
+    - 9
+  - - 33
+    - 1
+    - refinery_i18n
+    - 10
+  - - 34
+    - 1
+    - refinery_generators
+    - 11
+  - - 35
+    - 1
+    - page_images
+    - 12
+  - - 36
+    - 1
+    - menus
+    - 13
+  - - 37
+    - 1
+    - menu_blocks
+    - 14
+  - - 38
+    - 1
+    - refinery_inquiries
+    - 15
+
+---
+users:
+  columns:
+  - id
+  - username
+  - email
+  - encrypted_password
+  - persistence_token
+  - created_at
+  - updated_at
+  - perishable_token
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - sign_in_count
+  - remember_token
+  - reset_password_token
+  - remember_created_at
+  records: 
+  - - 1
+    - admin
+    - admin@admin.com
+    - $2a$10$Ayu747G/n1Ho15GJCSuvlOE2XlKpZeBoo80pUL66yaZHg0yLx8oW.
+    - !!null 
+    - 2011-11-24 08:29:14.000000000Z
+    - 2011-11-30 06:41:38.000000000Z
+    - !!null 
+    - 2011-11-30 06:41:37.000000000Z
+    - 2011-11-29 08:32:53.000000000Z
+    - 127.0.0.1
+    - 127.0.0.1
+    - 6
+    - !!null 
+    - !!null 
+    - !!null 

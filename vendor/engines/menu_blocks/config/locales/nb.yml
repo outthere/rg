@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    menu_blocks:
+      title: Menu Blocks
+  admin:
+    menu_blocks:
+      actions:
+        create_new: Lag en ny Menu Block
+        reorder: Endre rekkefølgen på Menu Blocks
+        reorder_done: Ferdig å endre rekkefølgen Menu Blocks
+      records:
+        title: Menu Blocks
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Menu Blocks enda. Klikk på "Lag en ny Menu Block" for å legge til din første menu block.
+      menu_block:
+        view_live_html: Vis hvordan denne menu block ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne menu block
+        delete: Fjern denne menu block permanent
+  menu_blocks:
+    show:
+      other: Andre Menu Blocks

@@ -1,0 +1,12 @@
+<% content_for :body_content_left do %>
+  <ul id="menu_blocks">
+    <% @menu_blocks.each do |menu_block| %>
+      <li>
+        <%= link_to menu_block.name, menu_block_path(menu_block) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+<%= render :partial => "/menu_blocks/form", :menu_block => @menu_blocks.first %>
+
+<%= render :partial => "/shared/content_page" %>

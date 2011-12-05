@@ -55,4 +55,23 @@ Rg::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
+
+  resources :menu_blocks,
+            :only => :create,
+            :as => :menu_blocks,
+            :controller => 'menu_blocks' do
+    collection do
+      get :thank_you
+    end
+  end
+
+  resources :menu_blocks, :only => [:index, :show, :new]
+    scope(:path => 'refinery', :as => 'admin', :module => 'admin') do
+      resources :menu_blocks, :except => :show do
+        collection do
+        post :update_positions
+      end
+    end
+  end
+
 end

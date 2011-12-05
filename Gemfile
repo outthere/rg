@@ -7,6 +7,8 @@ source 'http://rubygems.org'
 
 #gem 'sqlite3'
 gem 'mysql2', '< 0.3'
+#gem 'jquery-rails', '>= 1.0.12'
+gem 'yaml_db'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -62,12 +64,15 @@ end
 
 
 # Specify additional Refinery CMS Engines here (all optional):
-# gem 'refinerycms-inquiries',    '~> 1.0'
+ gem 'refinerycms-inquiries',    '~> 1.0'
 # gem "refinerycms-news",         '~> 1.2'
-# gem 'refinerycms-blog',         '~> 1.6'
-# gem 'refinerycms-page-images',  '~> 1.0'
+  gem 'refinerycms-blog',         '~> 1.6'
+  gem 'refinerycms-page-images',  '~> 1.0'
+# gem 'refinerycms-copywriting', '~> 1.0.9'
 
 # Add i18n support (optional, you can remove this if you really want to).
 gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
+
+gem 'refinerycms-menu_blocks', '1.0', :path => 'vendor/engines'

@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    menu_blocks:
+      title: Menu Blocks
+  admin:
+    menu_blocks:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Menu Block
+        reorder: Réordonner les Menu Blocks
+        reorder_done: Fin de réordonnancement des Menu Blocks
+      records:
+        title: Menu Blocks
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Menu Block. Cliquer sur "Créer un(e) nouve(au/l/lle) Menu Block" pour créer votre premi(er/ère) menu block.'
+      menu_block:
+        view_live_html: Voir ce(t/tte) menu block <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) menu block
+        delete: Supprimer définitivement ce(t/tte) menu block
+  menu_blocks:
+    show:
+      other: Autres Menu Blocks

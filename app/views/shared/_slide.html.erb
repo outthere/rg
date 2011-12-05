@@ -1,0 +1,59 @@
+****************
+<%
+   Page.find_by_constant_name('slides').children.each do |cld|
+
+
+       #cld.inspect
+       cld.parts.each do |part| %>
+         <%= part.body.inspect %>
+       <% end
+   end
+ %>
+****************
+<%
+   Page.find_by_constant_name('slides').children.each do |cld|
+
+
+%>
+  <%=  image_tag(cld.images.first.url) %>
+<% end %>
+
+<div class="wrap sld">
+  <section id="slideshow_container">
+      <div class="slideshow">
+          <ul class="items">
+          <style type="text/css">
+.slideshow {position:relative;left:50%;overflow:hidden;width:1200px;height:460px;margin-left:-600px;/*background:#000;*/}
+.slideshow .items {position:absolute;width:20000em;}
+.slideshow .items li {float:left;position:relative;width:1200px;height:460px;}
+
+.slideshow .s1 {background:url(./images/slide_map.png) 100% 0 no-repeat;}
+.slideshow .s2 {background:url(./images/slide_em_1200_tr.png) 100% 0 no-repeat;}
+.slideshow .s3 {background:url(./images/slide_vg_1200_tr.png) 100% 0 no-repeat;}
+          </style>
+
+
+              <li class="s1">
+                  <h2>Winter classes<br/>begin December 1<sup>st</sup><br/>in Minsk, Belarus</h2>
+                  <a href="" class="enroll"></a>
+                  <a class="plate minsk arrr"><span><b>Minsk</b></span></a>
+                  <a class="plate dnepr arrl"><span><b>Dnepropetrovsk</b></span></a>
+                  <a class="plate aires arrl"><span><b>Buenos Aires</b></span></a>
+              </li>
+              <li class="s2">
+                  <h3><strong>60 days</strong> of intensive work <br/>with instructors with <strong>7+</strong> <br/>years hands-on <strong>Ruby</strong> <br/>experience in a team of <br/>geeks like you</h3>
+                  <a href="" class="enroll"></a>
+              </li>
+              <li class="s3">
+                  <h3><strong>Vadim Golub</strong>: my way to<br/>RightScale</h3>
+                  <a href="" class="watch"></a>
+              </li>
+          </ul>
+          <div id="slide_nav" class="navi">
+              <a href="#1"></a>
+              <a href="#2"></a>
+              <a href="#3"></a>
+          </div>
+      </div>
+  </section>
+</div>

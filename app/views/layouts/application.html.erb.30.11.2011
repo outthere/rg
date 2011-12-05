@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<%= render :partial => "/shared/html_tag" %>
+  <% site_bar = render(:partial => "/shared/site_bar", :locals => {:head => true}) -%>
+  <%= render :partial => "/shared/head" %>
+
+  <body>
+
+    <%= site_bar -%>
+    ---------------
+    <%= render :partial => "/shared/header" %>
+-----------------------
+    <nav id='locale'>
+   <% ::Refinery::I18n.frontend_locales.each do |locale| %>
+     <%= link_to_if Globalize.locale.to_s != locale.to_s, locale, @page.url() %>
+   <% end %>
+ </nav>
+
+    <%= @menu_pages.inspect %>
+    ++++++++++
+    <%= @page.inspect %>
+ <div class='submenu'>
+   <%= render :partial => "/shared/menu", :locals => {
+     #:roots => @menu_pages.select{|p| p.parent_id == @page.root.id}
+     :roots => @menu_pages.select{|p| p.parent_id == 13}
+   } %>
+ </div>
+
+    <%
+      #all_langs=RefinerySetting.find_by_name( :i18n_translation_locales ).value
+      used_langs=RefinerySetting.find_by_name( :i18n_translation_frontend_locales ).value
+      #all_langs.keep_if {| key, value | used_langs.include?(key) }
+      #@page.url(:locale => locale)
+      menu_langs = Hash.new()
+      RefinerySetting.find_by_name( :i18n_translation_locales ).value.each { | key, value |
+        menu_langs[value]=url_for(request.parameters.merge({:locale => key})) if used_langs.include?(key)
+      }
+
+    %>
+    ==============<%= locale.inspect %>===================
+
+    <%= select_tag 'language', options_for_select(menu_langs.to_a, url_for(request.parameters.merge({:locale => locale})) ), {:id => 'lang_select'} %>
+    <% content_for :javascripts do %>
+      <%= javascript_include_tag('jquery') %>
+    <% end %>
+
+    <% content_for :javascripts do %>
+    <script type="text/javascript">
+    $(document).ready(
+
+            $('#lang_select').change( function() { window.location = this.value } )
+
+
+    );
+    </script>
+    <% end %>
+
+
+    <%= render :partial => "/shared/locale_selector" %>
+
+    <%= render :partial => "/shared/ie6check" if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+    <div id="page_container">
+      <header>
+        <%= render :partial => "/shared/header" -%>
+      </header>
+      <section id='page'>
+        <%= yield %>
+      </section>
+      <footer>
+        <%= render :partial => "/shared/footer" -%>
+      </footer>
+    </div>
+    <%= render :partial => "/shared/javascripts" %>
+  </body>
+</html>
