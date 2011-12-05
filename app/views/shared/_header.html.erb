@@ -1,6 +1,6 @@
 <div class="wrap hdr">
 	<header>
-		<a class="logo" href="/"></a>
+		<a class="logo" href="/<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>"></a>
 
       <%= render :partial => "/shared/menu", :locals => {
         :roots => @menu_pages.select{|p| p.parent_id == Page.find_by_constant_name('top_menu').id}

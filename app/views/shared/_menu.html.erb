@@ -13,7 +13,7 @@
 -%>
       <nav>
         <ul>
-          <li class="act ">
+          <li>
               <a href="/<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>">Home</a>
           </li>
           <% @page_path_arr = my_path(@page.id) %>
