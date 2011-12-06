@@ -30,7 +30,7 @@ module ApplicationHelper
       path_arr << pg.id
     end
 
-    return path_arr
+    return path_arr.reverse
   end
 
   def page_template(page)
@@ -43,4 +43,10 @@ module ApplicationHelper
       ppage.template_name || parent_page_template(ppage)
     end
   end
+
+  def path_by_constant_name(constant_name)
+    page=Page.find_by_constant_name(constant_name)
+    page.url
+  end
+
 end

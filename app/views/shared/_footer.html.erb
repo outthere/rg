@@ -2,7 +2,7 @@
 	<footer>
 
       <%= render :partial => "/shared/footer_menu", :locals => {
-        :rooots => @menu_pages.select{|p| p.parent_id == Page.find_by_constant_name('bottom_menu').id}
+        :roots => @menu_pages.select{|p| p.parent_id == Page.find_by_constant_name('bottom_menu').id}
       } %>
 
 		<div class="logo"></div>

@@ -1,5 +1,5 @@
 	$(document).ready(function(){
-		$('#call_box_right').hover(function(){
+		/*$('#call_box_right').hover(function(){
 			$('.right_arrow').animate({left: '+=10'});
 			$('#its_free').fadeIn();
 			},
@@ -43,7 +43,23 @@
 			 window.location=$('a#classroom_link').attr("href");
 			 return false;
 		});
-		
+		$('#blog_blurb .blog_img img').addClass('blurb_img'); 
+		*/
+		var period = $(".period").scrollable();
+		var issues = $(".issues").scrollable({circular: true});
+		$('.prev1').click(function(){
+			period.data('scrollable').prev();
+		});
+		$('.next1').click(function(){
+			period.data('scrollable').next();
+		});
+		$('.prev2').click(function(){
+			issues.data('scrollable').prev();
+		});
+		$('.next2').click(function(){
+			issues.data('scrollable').next();
+		});
+
 		var root = $('.slideshow').scrollable({circular: true, easing:'swing'}).navigator().autoscroll({ autopause: false, interval: 7000 });
 		$('#slide_nav').click(function(){
 			root.data('scrollable').stop();
@@ -66,6 +82,5 @@
 	        }, 1500);
 	
 	    });
-		$('#blog_blurb .blog_img img').addClass('blurb_img'); 
 		
 	});

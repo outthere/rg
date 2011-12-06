@@ -1,12 +1,17 @@
+<% if my_path(@page.id).include?(Page.find_by_constant_name('top_menu').id) %>
+
+<%
+  @page_path_arr = my_path(@page.id)
+  side_menu=@menu_pages.select{|p| p.parent_id == @page_path_arr[1]}
+%>
+
 <aside>
     <ul>
-        <li><span><a href="">What you get</a></span></li>
-        <li><span><a href="">Our tours</a></span></li>
-        <li class="act"><span><a href="">Success stories</a></span></li>
-        <li><span><a href="">How we train</a></span></li>
-        <li><span><a href="">Real time journal</a></span></li>
-        <li><span><a href="">FAQ</a></span></li>
+      <% side_menu.each do |val| %>
+        <li<%= ' class="act"'.html_safe if @page.id == val.id %>><span><%= link_to val.title, val.url %></span></li>
+      <% end %>
         <li class="last"></li>
     </ul>
-    <a href="" class="btn enroll"></a>
+    <a href="<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>/enroll/" class="btn enroll"></a>
 </aside>
+<% end %>

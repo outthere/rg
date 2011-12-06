@@ -8,17 +8,13 @@
 		</div>
 		<div class="partners">
 			<h2>Partners</h2>
-			<img src="/images/logo_altoros.png" alt=""/>
-			<img src="/images/logo_rightscale.png" alt=""/>
-			<img src="/images/logo_eyard.png" alt=""/>
-			<img src="/images/logo_altoros.png" alt=""/>
-			<img src="/images/logo_rightscale.png" alt=""/>
+            <%= Page.find_by_constant_name('partners')[:body].html_safe  %>
 		</div>
 		<div class="side">
-			<div class="img"><img src="/images/ph1.jpg" alt=""/></div>
-			<h2>Blog post</h2>
-			<p>Whether this whale belonged to the pod in advance, seemed questionable; for it is not customary for such venerable leviathans to be at all social. </p>
-			<p><a href="/blog">Read full article</a></p>
+          <%#= BlogPost.find(:last, :conditions => { :draft => 0 }).inspect %>
+          <% last_blog_post=BlogPost.find(:last, :conditions => { :draft => 0 }) %>
+          <%= last_blog_post['custom_teaser'].html_safe %>
+          <p><a href="/blog">Read full article</a></p>
 		</div>
 	</section>
 </div>

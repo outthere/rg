@@ -16,10 +16,10 @@ blog_posts:
   records: 
   - - 1
     - Start using blog
-    - ! "<p><img src=\"/system/images/BAhbB1sHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVUWwg6BnA6CnRodW1iSSINMjI1eDI1NT4GOwZU/ph1.jpg\"
-      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"225\" height=\"132\" /></p>\r\n<p>1st
-      Blog&#160; post body&#160;&#160; \r\nLorem Ipsum is simply dummy text of the
-      printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    - ! "<p><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" width=\"297\" height=\"174\" /></p>\r\n<p><strong>1st
+      Blog&#160; post&#160;</strong>\r\n</p><p>Lorem Ipsum is simply dummy text of
+      the printing and typesetting industry. Lorem Ipsum has been the industry's standard
       dummy text ever since the 1500s, when an unknown printer took a galley of type
       and scrambled it to make a type specimen book. It has survived not only five
       centuries, but also the leap into electronic typesetting, remaining essentially
@@ -29,16 +29,16 @@ blog_posts:
     - false
     - 2011-11-30 06:46:00.000000000Z
     - 2011-11-30 06:49:08.000000000Z
-    - 2011-12-04 20:33:36.000000000Z
+    - 2011-12-06 09:24:08.000000000Z
     - 1
     - start-using-blog
     - ''
-    - ! "<p><img src=\"/system/images/BAhbB1sHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVUWwg6BnA6CnRodW1iSSINMjI1eDI1NT4GOwZU/ph1.jpg\"
-      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"225\" height=\"132\" /></p>\r\n<p>1st
-      Blog&#160; post body &#160; \r\nLorem Ipsum is simply dummy text of the printing
-      and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-      text ever since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book.&#160;</p>"
+    - ! "<p><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" width=\"297\" height=\"174\" /></p>\r\n<p>1st Blog&#160;
+      post body &#160; \r\nLorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever since
+      the 1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.&#160;</p>"
 
 ---
 image_pages:
@@ -54,15 +54,15 @@ image_pages:
     - !!null 
   - - 2
     - 69
-    - 6
+    - 17
     - !!null 
   - - 3
     - 71
-    - 7
+    - 15
     - !!null 
   - - 4
     - 70
-    - 5
+    - 16
     - !!null 
 
 ---
@@ -149,6 +149,36 @@ images:
     - 2011-12-04 20:28:20.000000000Z
     - 2011/12/04/22_28_20_563_ph1.jpg
     - jpg
+  - - 8
+    - image/png
+    - logo_altoros.png
+    - 1499
+    - 173
+    - 34
+    - 2011-12-06 08:36:43.000000000Z
+    - 2011-12-06 08:36:43.000000000Z
+    - 2011/12/06/10_36_43_942_logo_altoros.png
+    - png
+  - - 9
+    - image/png
+    - logo_eyard.png
+    - 3981
+    - 129
+    - 41
+    - 2011-12-06 08:37:16.000000000Z
+    - 2011-12-06 08:37:16.000000000Z
+    - 2011/12/06/10_37_16_442_logo_eyard.png
+    - png
+  - - 10
+    - image/png
+    - logo_rightscale.png
+    - 1263
+    - 161
+    - 31
+    - 2011-12-06 08:37:36.000000000Z
+    - 2011-12-06 08:37:36.000000000Z
+    - 2011/12/06/10_37_36_954_logo_rightscale.png
+    - png
 
 ---
 menu_blocks:
@@ -1670,13 +1700,13 @@ page_part_translations:
   - - 292
     - 137
     - en
-    - ! "<style type=\"text/css\">\r\n .slideshow .s2 {background:url(./images/slide_em_1200_tr.png)
-      100% 0 no-repeat;}\r\n</style>\r\n<p>                  <h3><strong>60 days</strong>
-      of intensive work <br />with instructors with <strong>7+</strong> <br />years
-      hands-on <strong>Ruby</strong> <br />experience in a team of <br />geeks like
-      you</h3>\r\n<br />                  <a class=\"enroll\"></a>\r\n<br />"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
+      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+      days</strong> of intensive work <br />with instructors with <strong>7+</strong>
+      <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
+      />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-05 08:41:40.000000000Z
+    - 2011-12-06 11:02:45.000000000Z
   - - 293
     - 138
     - en
@@ -1698,14 +1728,15 @@ page_part_translations:
   - - 296
     - 139
     - en
-    - ! "<style type=\"text/css\">\r\n  .slideshow .s1 {background:url(./images/slide_map.png)
-      100% 0 no-repeat;}\r\n</style>\r\n                  <h2>Winter classes<br />begin
-      December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n                  <a
-      class=\"enroll\"></a>\r\n                  <a class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n
-      \                 <a class=\"plate dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n
-      \                 <a class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
+      .s1 a.enroll {top:272px;left:717px;}\r\n.slideshow .s1 {background: 87px 0 no-repeat;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
+      classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
+      href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk
+      arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a class=\"plate
+      dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
+      class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-05 08:40:14.000000000Z
+    - 2011-12-06 11:02:18.000000000Z
   - - 297
     - 140
     - en
@@ -1751,12 +1782,11 @@ page_part_translations:
   - - 304
     - 141
     - en
-    - ! "<style type=\"text/css\">\r\n  .slideshow .s3 {background:url(./images/slide_vg_1200_tr.png)
-      100% 0 no-repeat;}\r\n</style>\r\n<p>                  <h3><strong>Vadim Golub</strong>:
-      my way to<br />RightScale</h3>\r\n<br />                  <a class=\"watch\"></a>\r\n<br
-      />"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
+      .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-05 08:49:55.000000000Z
+    - 2011-12-06 10:14:39.000000000Z
   - - 305
     - 142
     - en
@@ -1787,6 +1817,77 @@ page_part_translations:
     - ''
     - 2011-12-04 16:10:38.000000000Z
     - 2011-12-04 16:10:38.000000000Z
+  - - 310
+    - 143
+    - en
+    - <p>Enroll - english</p>
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:37:28.000000000Z
+  - - 311
+    - 144
+    - en
+    - ''
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:36:57.000000000Z
+  - - 312
+    - 143
+    - ru
+    - <p>Enroll - russian</p>
+    - 2011-12-06 07:38:00.000000000Z
+    - 2011-12-06 07:38:00.000000000Z
+  - - 313
+    - 144
+    - ru
+    - ''
+    - 2011-12-06 07:38:00.000000000Z
+    - 2011-12-06 07:38:00.000000000Z
+  - - 314
+    - 143
+    - es
+    - <p>Enroll - spanish</p>
+    - 2011-12-06 07:38:26.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 315
+    - 144
+    - es
+    - ''
+    - 2011-12-06 07:38:26.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 316
+    - 145
+    - en
+    - ! "<p><a href=\"http://altoros.com\" title=\"http://altoros.com\"><img src=\"/system/images/BAhbBlsHOgZmSSItMjAxMS8xMi8wNi8xMF8zNl80M185NDJfbG9nb19hbHRvcm9zLnBuZwY6BkVU/logo_altoros.png\"
+      title=\"Logo Altoros\" alt=\"Logo Altoros\" width=\"173\" height=\"34\" /></a>\r\n</p>\r\n<p><a
+      href=\"http://www.rightscale.com\" title=\"http://www.rightscale.com\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIwMjAxMS8xMi8wNi8xMF8zN18zNl85NTRfbG9nb19yaWdodHNjYWxlLnBuZwY6BkVU/logo_rightscale.png\"
+      title=\"Logo Rightscale\" alt=\"Logo Rightscale\" width=\"161\" height=\"31\"
+      /></a>\r\n</p>\r\n<p><a href=\"http://www.engineyard.com/\" title=\"http://www.engineyard.com/\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIrMjAxMS8xMi8wNi8xMF8zN18xNl80NDJfbG9nb19leWFyZC5wbmcGOgZFVA/logo_eyard.png\"
+      title=\"Logo Eyard\" alt=\"Logo Eyard\" width=\"129\" height=\"41\" /></a>\r\n</p>\r\n\r\n"
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 10:58:25.000000000Z
+  - - 317
+    - 146
+    - en
+    - ''
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 08:34:06.000000000Z
+  - - 318
+    - 147
+    - en
+    - ! "<section>\r\n\t<a href=\"#\"><img src=\"images/pic_lead_r.png\" /></a>\r\n\t<a
+      href=\"#\"><img src=\"images/pic_lead_l.png\" /></a>\r\n\t<div>\r\n\t\t<h1>Want
+      to go the Ruby way? Become a Ruby On Rails Star!</h1>\r\n\t\t<p>An opportunity
+      for mid-level and senior developers with 2+years of experience in PHP, Java,
+      ASP.NET, C#</p>\r\n\t</div>\r\n</section>\r\n"
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:46:03.000000000Z
+  - - 319
+    - 148
+    - en
+    - ''
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:25:58.000000000Z
 
 ---
 page_parts:
@@ -2239,56 +2340,56 @@ page_parts:
     - <p>Minsk - es body - Contacts</p>
     - 0
     - 2011-11-17 10:32:10.000000000Z
-    - 2011-12-01 08:13:00.000000000Z
+    - 2011-12-06 07:32:17.000000000Z
   - - 104
     - 52
     - Side Body
     - ''
     - 1
     - 2011-11-17 10:32:10.000000000Z
-    - 2011-12-01 08:13:00.000000000Z
+    - 2011-12-06 07:32:17.000000000Z
   - - 105
     - 53
     - Body
     - <p>Odessa - es body</p>
     - 0
     - 2011-11-17 10:32:44.000000000Z
-    - 2011-11-30 10:34:58.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
   - - 106
     - 53
     - Side Body
     - ''
     - 1
     - 2011-11-17 10:32:44.000000000Z
-    - 2011-11-30 10:34:58.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
   - - 107
     - 54
     - Body
     - <p>Kharkiv - es body</p>
     - 0
     - 2011-11-17 10:33:08.000000000Z
-    - 2011-11-30 10:35:54.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
   - - 108
     - 54
     - Side Body
     - ''
     - 1
     - 2011-11-17 10:33:08.000000000Z
-    - 2011-11-30 10:35:54.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
   - - 109
     - 55
     - Body
     - <p>Buenos Aires - es body</p>
     - 0
     - 2011-11-17 10:33:37.000000000Z
-    - 2011-11-30 10:36:56.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
   - - 110
     - 55
     - Side Body
     - ''
     - 1
     - 2011-11-17 10:33:37.000000000Z
-    - 2011-11-30 10:36:56.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
   - - 113
     - 57
     - Body
@@ -2439,57 +2540,110 @@ page_parts:
   - - 137
     - 69
     - Body
-    - ! "<style type=\"text/css\">\r\n .slideshow .s2 {background:url(./images/slide_em_1200_tr.png)
-      100% 0 no-repeat;}\r\n</style>\r\n<p>                  <h3><strong>60 days</strong>
-      of intensive work <br />with instructors with <strong>7+</strong> <br />years
-      hands-on <strong>Ruby</strong> <br />experience in a team of <br />geeks like
-      you</h3>\r\n<br />                  <a class=\"enroll\"></a>\r\n<br />"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
+      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+      days</strong> of intensive work <br />with instructors with <strong>7+</strong>
+      <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
+      />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-05 08:41:40.000000000Z
+    - 2011-12-06 11:02:45.000000000Z
   - - 138
     - 69
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-05 08:41:40.000000000Z
+    - 2011-12-06 11:02:45.000000000Z
   - - 139
     - 70
     - Body
-    - ! "<style type=\"text/css\">\r\n  .slideshow .s1 {background:url(./images/slide_map.png)
-      100% 0 no-repeat;}\r\n</style>\r\n                  <h2>Winter classes<br />begin
-      December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n                  <a
-      class=\"enroll\"></a>\r\n                  <a class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n
-      \                 <a class=\"plate dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n
-      \                 <a class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
+      .s1 a.enroll {top:272px;left:717px;}\r\n.slideshow .s1 {background: 87px 0 no-repeat;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
+      classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
+      href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk
+      arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a class=\"plate
+      dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
+      class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-05 08:40:14.000000000Z
+    - 2011-12-06 11:02:18.000000000Z
   - - 140
     - 70
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-05 08:40:14.000000000Z
+    - 2011-12-06 11:02:18.000000000Z
   - - 141
     - 71
     - Body
-    - ! "<style type=\"text/css\">\r\n  .slideshow .s3 {background:url(./images/slide_vg_1200_tr.png)
-      100% 0 no-repeat;}\r\n</style>\r\n<p>                  <h3><strong>Vadim Golub</strong>:
-      my way to<br />RightScale</h3>\r\n<br />                  <a class=\"watch\"></a>\r\n<br
-      />"
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
+      .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-05 08:49:55.000000000Z
+    - 2011-12-06 10:14:39.000000000Z
   - - 142
     - 71
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-05 08:49:55.000000000Z
+    - 2011-12-06 10:14:39.000000000Z
+  - - 143
+    - 72
+    - Body
+    - <p>Enroll - spanish</p>
+    - 0
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 144
+    - 72
+    - Side Body
+    - ''
+    - 1
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 145
+    - 73
+    - Body
+    - ! "<p><a href=\"http://altoros.com\" title=\"http://altoros.com\"><img src=\"/system/images/BAhbBlsHOgZmSSItMjAxMS8xMi8wNi8xMF8zNl80M185NDJfbG9nb19hbHRvcm9zLnBuZwY6BkVU/logo_altoros.png\"
+      title=\"Logo Altoros\" alt=\"Logo Altoros\" width=\"173\" height=\"34\" /></a>\r\n</p>\r\n<p><a
+      href=\"http://www.rightscale.com\" title=\"http://www.rightscale.com\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIwMjAxMS8xMi8wNi8xMF8zN18zNl85NTRfbG9nb19yaWdodHNjYWxlLnBuZwY6BkVU/logo_rightscale.png\"
+      title=\"Logo Rightscale\" alt=\"Logo Rightscale\" width=\"161\" height=\"31\"
+      /></a>\r\n</p>\r\n<p><a href=\"http://www.engineyard.com/\" title=\"http://www.engineyard.com/\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIrMjAxMS8xMi8wNi8xMF8zN18xNl80NDJfbG9nb19leWFyZC5wbmcGOgZFVA/logo_eyard.png\"
+      title=\"Logo Eyard\" alt=\"Logo Eyard\" width=\"129\" height=\"41\" /></a>\r\n</p>\r\n\r\n"
+    - 0
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 10:58:25.000000000Z
+  - - 146
+    - 73
+    - Side Body
+    - ''
+    - 1
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 10:58:25.000000000Z
+  - - 147
+    - 74
+    - Body
+    - ! "<section>\r\n\t<a href=\"#\"><img src=\"images/pic_lead_r.png\" /></a>\r\n\t<a
+      href=\"#\"><img src=\"images/pic_lead_l.png\" /></a>\r\n\t<div>\r\n\t\t<h1>Want
+      to go the Ruby way? Become a Ruby On Rails Star!</h1>\r\n\t\t<p>An opportunity
+      for mid-level and senior developers with 2+years of experience in PHP, Java,
+      ASP.NET, C#</p>\r\n\t</div>\r\n</section>\r\n"
+    - 0
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:46:03.000000000Z
+  - - 148
+    - 74
+    - Side Body
+    - ''
+    - 1
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:46:03.000000000Z
 
 ---
 page_translations:
@@ -2715,31 +2869,31 @@ page_translations:
   - - 54
     - 52
     - en
-    - Minsk
+    - Minsk - contacts
     - ''
     - 2011-11-17 10:32:10.000000000Z
-    - 2011-11-17 10:32:10.000000000Z
+    - 2011-12-06 07:31:32.000000000Z
   - - 55
     - 53
     - en
-    - Odessa
+    - Odessa - contacts
     - ''
     - 2011-11-17 10:32:44.000000000Z
-    - 2011-11-17 10:32:44.000000000Z
+    - 2011-12-06 07:32:40.000000000Z
   - - 56
     - 54
     - en
-    - Kharkiv
+    - Kharkiv - contacts
     - ''
     - 2011-11-17 10:33:08.000000000Z
-    - 2011-11-17 10:33:08.000000000Z
+    - 2011-12-06 07:33:34.000000000Z
   - - 57
     - 55
     - en
-    - Buenos Aires
+    - Buenos Aires - contacts
     - ''
     - 2011-11-17 10:33:37.000000000Z
-    - 2011-11-17 10:33:37.000000000Z
+    - 2011-12-06 07:34:28.000000000Z
   - - 59
     - 57
     - en
@@ -2911,59 +3065,59 @@ page_translations:
   - - 83
     - 52
     - ru
-    - Minsk - ru
+    - Minsk - contacts
     - ''
     - 2011-11-30 10:33:36.000000000Z
-    - 2011-11-30 10:33:36.000000000Z
+    - 2011-12-06 07:31:51.000000000Z
   - - 84
     - 52
     - es
-    - Minsk - es
+    - Minsk - contacts
     - ''
     - 2011-11-30 10:33:51.000000000Z
-    - 2011-11-30 10:33:51.000000000Z
+    - 2011-12-06 07:32:17.000000000Z
   - - 85
     - 53
     - ru
-    - Odessa - ru
+    - Odessa - contacts
     - ''
     - 2011-11-30 10:34:34.000000000Z
-    - 2011-11-30 10:34:34.000000000Z
+    - 2011-12-06 07:32:52.000000000Z
   - - 86
     - 53
     - es
-    - Odessa - es
+    - Odessa - contacts
     - ''
     - 2011-11-30 10:34:58.000000000Z
-    - 2011-11-30 10:34:58.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
   - - 87
     - 54
     - ru
-    - Kharkiv - ru
+    - Kharkiv - contacts
     - ''
     - 2011-11-30 10:35:38.000000000Z
-    - 2011-11-30 10:35:38.000000000Z
+    - 2011-12-06 07:33:50.000000000Z
   - - 88
     - 54
     - es
-    - Kharkiv - es
+    - Kharkiv - contacts
     - ''
     - 2011-11-30 10:35:54.000000000Z
-    - 2011-11-30 10:35:54.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
   - - 89
     - 55
     - ru
-    - Buenos Aires - ru
+    - Buenos Aires - contacts
     - ''
     - 2011-11-30 10:36:33.000000000Z
-    - 2011-11-30 10:36:33.000000000Z
+    - 2011-12-06 07:34:41.000000000Z
   - - 90
     - 55
     - es
-    - Buenos Aires - es
+    - Buenos Aires - contacts
     - ''
     - 2011-11-30 10:36:56.000000000Z
-    - 2011-11-30 10:36:56.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
   - - 91
     - 44
     - ru
@@ -3370,6 +3524,41 @@ page_translations:
     - ''
     - 2011-12-04 16:10:38.000000000Z
     - 2011-12-04 16:10:38.000000000Z
+  - - 155
+    - 72
+    - en
+    - Enroll
+    - ''
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:36:57.000000000Z
+  - - 156
+    - 72
+    - ru
+    - Enroll
+    - ''
+    - 2011-12-06 07:38:00.000000000Z
+    - 2011-12-06 07:38:00.000000000Z
+  - - 157
+    - 72
+    - es
+    - Enroll
+    - ''
+    - 2011-12-06 07:38:26.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 158
+    - 73
+    - en
+    - Partners
+    - ''
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 08:34:06.000000000Z
+  - - 159
+    - 74
+    - en
+    - Lead
+    - ''
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:25:58.000000000Z
 
 ---
 pages:
@@ -3902,7 +4091,7 @@ pages:
     - 32
     - !!null 
     - 2011-11-17 10:32:10.000000000Z
-    - 2011-12-01 08:13:00.000000000Z
+    - 2011-12-06 07:32:17.000000000Z
     - true
     - ''
     - !!null 
@@ -3920,7 +4109,7 @@ pages:
     - 33
     - !!null 
     - 2011-11-17 10:32:44.000000000Z
-    - 2011-11-30 10:34:58.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
     - true
     - ''
     - !!null 
@@ -3938,7 +4127,7 @@ pages:
     - 34
     - !!null 
     - 2011-11-17 10:33:08.000000000Z
-    - 2011-11-30 10:35:54.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
     - true
     - ''
     - !!null 
@@ -3956,7 +4145,7 @@ pages:
     - 35
     - !!null 
     - 2011-11-17 10:33:37.000000000Z
-    - 2011-11-30 10:36:56.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
     - true
     - ''
     - !!null 
@@ -4050,7 +4239,7 @@ pages:
     - true
     - ''
     - !!null 
-    - true
+    - false
     - none
     - false
     - false
@@ -4058,7 +4247,7 @@ pages:
     - 78
     - !!null 
     - !!null 
-    - !!null 
+    - blocks
   - - 62
     - !!null 
     - 37
@@ -4172,7 +4361,7 @@ pages:
     - 44
     - !!null 
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-05 08:41:40.000000000Z
+    - 2011-12-06 11:02:45.000000000Z
     - true
     - ''
     - !!null 
@@ -4190,7 +4379,7 @@ pages:
     - 45
     - !!null 
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-05 08:40:14.000000000Z
+    - 2011-12-06 11:02:18.000000000Z
     - true
     - ''
     - !!null 
@@ -4208,7 +4397,7 @@ pages:
     - 46
     - !!null 
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-05 08:49:55.000000000Z
+    - 2011-12-06 10:14:39.000000000Z
     - true
     - ''
     - !!null 
@@ -4221,6 +4410,60 @@ pages:
     - !!null 
     - !!null 
     - !!null 
+  - - 72
+    - !!null 
+    - 47
+    - !!null 
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+    - true
+    - ''
+    - !!null 
+    - false
+    - none
+    - false
+    - false
+    - 93
+    - 94
+    - !!null 
+    - !!null 
+    - enroll
+  - - 73
+    - !!null 
+    - 48
+    - !!null 
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 10:58:25.000000000Z
+    - true
+    - ''
+    - !!null 
+    - false
+    - none
+    - false
+    - false
+    - 95
+    - 96
+    - !!null 
+    - !!null 
+    - partners
+  - - 74
+    - !!null 
+    - 49
+    - !!null 
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:46:03.000000000Z
+    - true
+    - ''
+    - !!null 
+    - false
+    - none
+    - false
+    - false
+    - 97
+    - 98
+    - !!null 
+    - !!null 
+    - lead
 
 ---
 refinery_settings:
@@ -5056,11 +5299,11 @@ seo_meta:
   - - 32
     - 54
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-01 08:12:01.000000000Z
-    - 2011-12-01 08:12:01.000000000Z
+    - 2011-12-06 07:31:32.000000000Z
   - - 33
     - 54
     - Page::Translation
@@ -5072,11 +5315,11 @@ seo_meta:
   - - 34
     - 83
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-01 08:12:15.000000000Z
-    - 2011-12-01 08:12:15.000000000Z
+    - 2011-12-06 07:31:51.000000000Z
   - - 35
     - 83
     - Page::Translation
@@ -5688,11 +5931,11 @@ seo_meta:
   - - 111
     - 55
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-02 12:34:32.000000000Z
-    - 2011-12-02 12:34:32.000000000Z
+    - 2011-12-06 07:32:40.000000000Z
   - - 112
     - 55
     - Page::Translation
@@ -5704,11 +5947,11 @@ seo_meta:
   - - 113
     - 56
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-02 12:34:32.000000000Z
-    - 2011-12-02 12:34:32.000000000Z
+    - 2011-12-06 07:33:34.000000000Z
   - - 114
     - 56
     - Page::Translation
@@ -5720,11 +5963,11 @@ seo_meta:
   - - 115
     - 57
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-02 12:34:32.000000000Z
-    - 2011-12-02 12:34:32.000000000Z
+    - 2011-12-06 07:34:28.000000000Z
   - - 116
     - 57
     - Page::Translation
@@ -5941,6 +6184,142 @@ seo_meta:
     - ''
     - 2011-12-04 16:10:38.000000000Z
     - 2011-12-04 16:10:38.000000000Z
+  - - 146
+    - 85
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-12-06 07:32:52.000000000Z
+    - 2011-12-06 07:32:52.000000000Z
+  - - 147
+    - 85
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:32:52.000000000Z
+    - 2011-12-06 07:32:52.000000000Z
+  - - 148
+    - 86
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-12-06 07:33:06.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
+  - - 149
+    - 86
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:33:06.000000000Z
+    - 2011-12-06 07:33:06.000000000Z
+  - - 150
+    - 87
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-12-06 07:33:50.000000000Z
+    - 2011-12-06 07:33:50.000000000Z
+  - - 151
+    - 87
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:33:50.000000000Z
+    - 2011-12-06 07:33:50.000000000Z
+  - - 152
+    - 88
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-12-06 07:34:05.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
+  - - 153
+    - 88
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:34:05.000000000Z
+    - 2011-12-06 07:34:05.000000000Z
+  - - 154
+    - 89
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:34:41.000000000Z
+    - 2011-12-06 07:35:04.000000000Z
+  - - 155
+    - 89
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:34:41.000000000Z
+    - 2011-12-06 07:34:41.000000000Z
+  - - 156
+    - 90
+    - Page::Translation
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2011-12-06 07:35:21.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
+  - - 157
+    - 90
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:35:21.000000000Z
+    - 2011-12-06 07:35:21.000000000Z
+  - - 158
+    - 155
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:36:57.000000000Z
+    - 2011-12-06 07:36:57.000000000Z
+  - - 159
+    - 156
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:38:00.000000000Z
+    - 2011-12-06 07:38:00.000000000Z
+  - - 160
+    - 157
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 07:38:26.000000000Z
+    - 2011-12-06 07:38:26.000000000Z
+  - - 161
+    - 158
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 08:34:06.000000000Z
+    - 2011-12-06 08:34:06.000000000Z
+  - - 162
+    - 159
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-06 10:25:58.000000000Z
+    - 2011-12-06 10:25:58.000000000Z
 
 ---
 slugs:
@@ -7218,6 +7597,142 @@ slugs:
     - !!null 
     - 2011-12-04 20:33:36.000000000Z
     - es
+  - - 372
+    - minsk-contacts
+    - 52
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:31:32.000000000Z
+    - en
+  - - 373
+    - minsk-contacts
+    - 52
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:31:51.000000000Z
+    - ru
+  - - 374
+    - minsk-contacts
+    - 52
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:32:17.000000000Z
+    - es
+  - - 375
+    - odessa-contacts
+    - 53
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:32:40.000000000Z
+    - en
+  - - 376
+    - odessa-contacts
+    - 53
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:32:52.000000000Z
+    - ru
+  - - 377
+    - odessa-contacts
+    - 53
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:33:06.000000000Z
+    - es
+  - - 378
+    - kharkiv-contacts
+    - 54
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:33:34.000000000Z
+    - en
+  - - 379
+    - kharkiv-contacts
+    - 54
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:33:50.000000000Z
+    - ru
+  - - 380
+    - kharkiv-contacts
+    - 54
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:34:05.000000000Z
+    - es
+  - - 381
+    - buenos-aires-contacts
+    - 55
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:34:28.000000000Z
+    - en
+  - - 382
+    - buenos-aires-contacts
+    - 55
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:34:41.000000000Z
+    - ru
+  - - 383
+    - buenos-aires-contacts
+    - 55
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:35:21.000000000Z
+    - es
+  - - 384
+    - enroll
+    - 72
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:36:57.000000000Z
+    - en
+  - - 385
+    - enroll
+    - 72
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:38:00.000000000Z
+    - ru
+  - - 386
+    - enroll
+    - 72
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 07:38:26.000000000Z
+    - es
+  - - 387
+    - partners
+    - 73
+    - 3
+    - Page
+    - !!null 
+    - 2011-12-06 08:34:06.000000000Z
+    - en
+  - - 388
+    - lead
+    - 74
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-06 10:25:58.000000000Z
+    - en
 
 ---
 taggings:
@@ -7368,13 +7883,13 @@ users:
     - $2a$10$Ayu747G/n1Ho15GJCSuvlOE2XlKpZeBoo80pUL66yaZHg0yLx8oW.
     - !!null 
     - 2011-11-24 08:29:14.000000000Z
-    - 2011-12-04 07:40:01.000000000Z
+    - 2011-12-06 03:48:59.000000000Z
     - !!null 
+    - 2011-12-06 03:48:59.000000000Z
     - 2011-12-04 07:40:01.000000000Z
-    - 2011-12-02 15:17:36.000000000Z
     - 127.0.0.1
     - 127.0.0.1
-    - 12
+    - 13
     - !!null 
     - !!null 
     - !!null 
