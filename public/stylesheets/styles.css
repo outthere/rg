@@ -53,8 +53,8 @@ header .lang:hover .act a {background:none;}
 .wrap.sld {height:460px;margin:-6px 0 57px;background:url(../images/bg_slider2.png);}
 
 .wrap.lead {margin:0 0 58px;padding:35px 0 39px;background:rgba(0,0,0,0.4);border-bottom:1px solid #494949;}
-.lead section img:first-child {float:right;left:20px;}
-.lead section img {float:left;position:relative;left:-20px;}
+.lead section a:first-child {float:right;left:20px;}
+.lead section a {float:left;position:relative;left:-20px;}
 .lead section > div {overflow:hidden;font-size:22px;text-align:center;}
 .lead section p {padding:.6em 0 0;line-height:1.7;}
 
