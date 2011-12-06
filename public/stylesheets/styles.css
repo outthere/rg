@@ -13,7 +13,7 @@ h3 {color:#fff;font-size:22px;font-weight:bold;padding:0 0 5px;}
 :focus, input::-moz-focus-inner {border:0;outline:none;}
 textarea {font:.9em Arial, sans-serif;overflow:auto;resize:none;}
 html, body {background:url(../images/bg_body.png) #333;}
-body, p {font:16px 'PT Sans Caption', Arial, sans-serif;color:#c2c2c2;}
+body {min-width:1226px;font:16px 'PT Sans Caption', Arial, sans-serif;color:#c2c2c2;}
 
 .wrap {width:100%;overflow:hidden;}
 .wrap > div, .wrap > header, .wrap > section, .wrap > footer {width:985px;margin:0 auto;padding:0 20px;}
@@ -21,6 +21,7 @@ body, p {font:16px 'PT Sans Caption', Arial, sans-serif;color:#c2c2c2;}
 .wrap.hdr {position:relative;overflow:visible;z-index:9;height:106px;background:url(../images/bg_hdr.png) repeat-x;}
 header {position:relative;}
 header .logo {float:left;width:229px;height:72px;margin:14px 0 0;background:url(../images/logo_gardens.png) no-repeat;}
+.idx .logo {margin-left:-20px;}
 header nav {position:relative;left:67px;height:66px;padding:33px 0 0;}
 header nav > ul > li {float:left;height:33px;margin:0 18px 0 0;padding:0 0 0 11px;}
 header nav > ul > li > a { display:block;height:33px;padding:0 11px 0 0;color:#3b3b3b;font-size:16px;line-height:29px;text-shadow:1px 1px #eee;}
@@ -39,7 +40,7 @@ header nav .sec li.last {position:relative;height:14px;margin:0 15px 0 0;font:0/
 header nav .sec li.last span {position:absolute;right:-15px;overflow:hidden;width:15px;height:14px;padding:0;background:url(../images/bg_menu_bot_r.png) 100% 0 no-repeat;}
 header nav .sec li.fst + li b {display:block;padding:0 20px 12px;color:#525252;font-size:16px;font-weight:normal;background:#e2e2e2 url(../images/bg_menu_1st.png) 0 100% repeat-x;cursor:default;}
 
-header .lang {position:absolute;top:2px;right:-90px;width:90px;padding:0 0 13px;font-size:12px;}
+header .lang {position:absolute;top:2px;right:-100px;width:90px;padding:0 0 13px;font-size:12px;}
 header .lang:hover {background:url(../images/bg_lang.png) 0 100% no-repeat;}
 header .lang:hover li:first-child {background:url(../images/bg_lang_top.png) no-repeat;}
 header .lang li {padding:7px 0 0 18px;display:none;}
@@ -56,7 +57,7 @@ header .lang:hover .act a {background:none;}
 .lead section a:first-child {float:right;left:20px;}
 .lead section a {float:left;position:relative;left:-20px;}
 .lead section > div {overflow:hidden;font-size:22px;text-align:center;}
-.lead section p {padding:.6em 0 0;line-height:1.7;}
+.lead section p {padding:.6em 0 0;line-height:1.7;font-size:22px;}
 
 .wrap.info {margin:0 0 35px;}
 .info section > div {float:left;}
@@ -69,8 +70,8 @@ header .lang:hover .act a {background:none;}
 
 .wrap.social {margin:0 0 50px;padding:25px 0 25px;background:rgba(0,0,0,0.4);border-bottom:1px solid #494949;}
 .social .tw_msg {float:right;width:374px;padding:0 0 6px;font-size:14px;background:url(../images/tw_plate.png) -374px 100% no-repeat;}
-.social .tw_msg .in {width:340px;min-height:40px;padding:10px 10px 4px 24px;background:url(../images/tw_plate.png) no-repeat;}
-.social .tw_msg time {color:#999; }
+.social .tw_msg .in {width:340px;min-height:65px;padding:10px 10px 4px 24px;background:url(../images/tw_plate.png) no-repeat;}
+.social .tw_msg time {color:#999;}
 .social section > a {float:left;height:60px;margin:18px 0 0 113px;}
 .social section > a:hover {background-position:0 -60px !important;}
 .social a.bg {background:url(../images/ico_blog.png) no-repeat;width:48px;margin-left:0;}
@@ -183,14 +184,14 @@ h2 .notice span {position:relative;top:-5px;*top:-1px;padding:0 17px 0 0;line-he
 
 a.plate {position:absolute;padding:0 0 0 12px;height:33px;background:url(../images/map_plate.png) no-repeat;}
 a.plate span {display:block;padding:0 12px 0 0;height:33px;background:url(../images/map_plate.png) no-repeat;}
-a.plate span b {display:block;height:33px;font-size:15px;line-height:27px;color:#fff;background:url(../images/map_plate.png) repeat-x;}
+a.plate span strong {display:block;height:33px;font-size:15px;line-height:27px;color:#fff;background:url(../images/map_plate.png) repeat-x;}
 a.plate.arrr {background-position:0 -66px;}
 a.plate.arrr span {background-position:100% -132px;}
-a.plate.arrr span b {padding:0 4px 0 0;}
+a.plate.arrr span strong {padding:0 4px 0 0;}
 a.plate.arrl {background-position:0 -99px;}
 a.plate.arrl span {background-position:100% -33px;}
-a.plate.arrl span b {padding:0 0 0 4px;}
-a.plate:hover, a.plate:hover span, a.plate:hover span b {background-image:url(../images/map_plate_hover.png);}
+a.plate.arrl span strong {padding:0 0 0 4px;}
+a.plate:hover, a.plate:hover span, a.plate:hover span strong {background-image:url(../images/map_plate_hover.png);}
 
 a.minsk {top:154px;left:298px;}
 a.dnepr {top:169px;left:395px;}

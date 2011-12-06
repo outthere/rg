@@ -15,17 +15,20 @@
           <ul class="items">
           <style type="text/css">
               #slideshow_container {position:relative;width:100%;overflow:hidden;padding:0;}
-              .slideshow {position:relative;left:50%;overflow:hidden;width:1200px;height:460px;margin-left:-600px;/*background:#000;*/}
+              /*.slideshow {position:relative;left:50%;overflow:hidden;width:1200px;height:460px;margin-left:-600px;}
               .slideshow .items {position:absolute;width:20000em;}
               .slideshow .items li {float:left;position:relative;width:1200px;height:460px;}
-              .slideshow .items li div {position:relative;width:1026px;height:460px;margin:0 87px;}
-              .slideshow a.enroll {position:absolute;width:161px;height:42px;background-image:url(../images/btn_enroll.png);}
-              .slideshow a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}
+              .slideshow .items li div {position:relative;width:1026px;height:460px;margin:0 87px;}*/
+              .slideshow {position:relative;left:50%;overflow:hidden;width:1700px;height:460px;margin-left:-850px;}
+              .slideshow .items {position:absolute;width:20000em;}
+              .slideshow .items li {float:left;position:relative;width:1700px;height:460px;}
+              .slideshow .items li div {position:relative;width:1026px;height:460px;margin:0 337px;}
+
 <% cnt=1
    Page.find_by_constant_name('slides').children.each do |cld|
 %>
   <%#=  image_tag(cld.images.first.url) %>
-.slideshow .s<%= cnt %> {background-image:url(<%=  cld.images.first.url %>)}
+    .slideshow .s<%= cnt %> {background-image:url(<%=  cld.images.first.url %>);}
 <% cnt+=1
 end %>
 
