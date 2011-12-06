@@ -25,7 +25,7 @@
    Page.find_by_constant_name('slides').children.each do |cld|
 %>
   <%#=  image_tag(cld.images.first.url) %>
-.slideshow .s<%= cnt %> {background:url(<%=  cld.images.first.url %>) 100% 0 no-repeat;}
+.slideshow .s<%= cnt %> {background-image:url(<%=  cld.images.first.url %>)}
 <% cnt+=1
 end %>
 

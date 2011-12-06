@@ -18,27 +18,27 @@ blog_posts:
     - Start using blog
     - ! "<p><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
       title=\"Ph1\" alt=\"Ph1\" width=\"297\" height=\"174\" /></p>\r\n<p><strong>1st
-      Blog&#160; post&#160;</strong>\r\n</p><p>Lorem Ipsum is simply dummy text of
-      the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-      dummy text ever since the 1500s, when an unknown printer took a galley of type
-      and scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining essentially
+      Blog&#160; post&#160;</strong>\r\n</p>\r\n<p>Lorem Ipsum is simply dummy text
+      of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley
+      of type and scrambled it to make a type specimen book. It has survived not only
+      five centuries, but also the leap into electronic typesetting, remaining essentially
       unchanged. It was popularised in the 1960s with the release of Letraset sheets
       containing Lorem Ipsum passages, and more recently with desktop publishing software
       like Aldus PageMaker including versions of Lorem Ipsum.</p>"
     - false
     - 2011-11-30 06:46:00.000000000Z
     - 2011-11-30 06:49:08.000000000Z
-    - 2011-12-06 09:24:08.000000000Z
+    - 2011-12-06 12:16:05.000000000Z
     - 1
     - start-using-blog
     - ''
     - ! "<p><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
-      title=\"Ph1\" alt=\"Ph1\" width=\"297\" height=\"174\" /></p>\r\n<p>1st Blog&#160;
-      post body &#160; \r\nLorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever since
-      the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.&#160;</p>"
+      title=\"Ph1\" alt=\"Ph1\" width=\"297\" height=\"174\" /></p>\r\n<h2>1st Blog&#160;
+      post body &#160; </h2>\r\nLorem Ipsum is simply dummy text of the printing and
+      typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+      ever since the 1500s, when an unknown printer took a galley of type and scrambled
+      it to make a type specimen book.&#160;"
 
 ---
 image_pages:
@@ -54,15 +54,15 @@ image_pages:
     - !!null 
   - - 2
     - 69
-    - 17
+    - 19
     - !!null 
   - - 3
     - 71
-    - 15
+    - 20
     - !!null 
   - - 4
     - 70
-    - 16
+    - 18
     - !!null 
 
 ---
@@ -1628,9 +1628,19 @@ page_part_translations:
   - - 274
     - 131
     - en
-    - ''
+    - ! "<p>\t\t\t<span class=\"place\">Minsk, 2011</span><br/>\t\t\t<h2>Vadim Golub</h2><br/>\t\t\t<h3>Before</h3><br/>\t\t\t<p>But
+      though thus contrasting within, the contrast was only in shades and shadows
+      without; those two seemed one; it was only the sex, as it were, that distinguished
+      them. Aloft, like a royal czar and king, the sun seemed giving this gentle air
+      to this bold and rolling sea; even as bride to groom.</p><br/>\t\t\t<h3>Now</h3><br/>\t\t\t<p>No
+      doors or windows were visible in the sides of the structure, nor was there need
+      of any, except one entrance for the slaves, since, as Ja explained, the Mahars
+      flew to and from their place of ceremonial, entering and leaving the building
+      by means of the apertures in the roof.</p><br/>\t\t\t<h3>Video</h3><br/>\t\t\t<iframe
+      width=\"420\" height=\"315\" src=\"http://www.youtube.com/embed/nQsvBZZ2jNk\"
+      frameborder=\"0\"></iframe><br/></p>"
     - 2011-12-04 10:43:06.000000000Z
-    - 2011-12-04 10:43:06.000000000Z
+    - 2011-12-06 12:48:50.000000000Z
   - - 275
     - 132
     - en
@@ -1700,13 +1710,13 @@ page_part_translations:
   - - 292
     - 137
     - en
-    - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
-      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+    - ! "<style type=\"text/css\">\r\n.slideshow .s2 {background-image: 100% 0 no-repeat;}\r\n.slideshow
+      .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 11:02:45.000000000Z
+    - 2011-12-06 12:05:35.000000000Z
   - - 293
     - 138
     - en
@@ -1728,7 +1738,8 @@ page_part_translations:
   - - 296
     - 139
     - en
-    - ! "<style type=\"text/css\">\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 {background-image: background-position:87px
+      0;background-repeat:no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       .s1 a.enroll {top:272px;left:717px;}\r\n.slideshow .s1 {background: 87px 0 no-repeat;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
       href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk
@@ -1736,7 +1747,7 @@ page_part_translations:
       dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
       class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 11:02:18.000000000Z
+    - 2011-12-06 12:05:06.000000000Z
   - - 297
     - 140
     - en
@@ -1782,11 +1793,13 @@ page_part_translations:
   - - 304
     - 141
     - en
-    - ! "<style type=\"text/css\">\r\n.slideshow .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-image: 100% 0 no-repeat;}\r\n.slideshow
+      .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
-      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
+      class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 10:14:39.000000000Z
+    - 2011-12-06 12:55:13.000000000Z
   - - 305
     - 142
     - en
@@ -2512,17 +2525,27 @@ page_parts:
   - - 131
     - 66
     - Body
-    - ''
+    - ! "<p>\t\t\t<span class=\"place\">Minsk, 2011</span><br/>\t\t\t<h2>Vadim Golub</h2><br/>\t\t\t<h3>Before</h3><br/>\t\t\t<p>But
+      though thus contrasting within, the contrast was only in shades and shadows
+      without; those two seemed one; it was only the sex, as it were, that distinguished
+      them. Aloft, like a royal czar and king, the sun seemed giving this gentle air
+      to this bold and rolling sea; even as bride to groom.</p><br/>\t\t\t<h3>Now</h3><br/>\t\t\t<p>No
+      doors or windows were visible in the sides of the structure, nor was there need
+      of any, except one entrance for the slaves, since, as Ja explained, the Mahars
+      flew to and from their place of ceremonial, entering and leaving the building
+      by means of the apertures in the roof.</p><br/>\t\t\t<h3>Video</h3><br/>\t\t\t<iframe
+      width=\"420\" height=\"315\" src=\"http://www.youtube.com/embed/nQsvBZZ2jNk\"
+      frameborder=\"0\"></iframe><br/></p>"
     - 0
     - 2011-12-04 10:43:06.000000000Z
-    - 2011-12-04 10:43:39.000000000Z
+    - 2011-12-06 12:48:50.000000000Z
   - - 132
     - 66
     - Side Body
     - ''
     - 1
     - 2011-12-04 10:43:06.000000000Z
-    - 2011-12-04 10:43:39.000000000Z
+    - 2011-12-06 12:48:50.000000000Z
   - - 133
     - 67
     - Body
@@ -2540,25 +2563,26 @@ page_parts:
   - - 137
     - 69
     - Body
-    - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
-      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+    - ! "<style type=\"text/css\">\r\n.slideshow .s2 {background-image: 100% 0 no-repeat;}\r\n.slideshow
+      .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 11:02:45.000000000Z
+    - 2011-12-06 12:05:35.000000000Z
   - - 138
     - 69
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 11:02:45.000000000Z
+    - 2011-12-06 12:05:35.000000000Z
   - - 139
     - 70
     - Body
-    - ! "<style type=\"text/css\">\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 {background-image: background-position:87px
+      0;background-repeat:no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       .s1 a.enroll {top:272px;left:717px;}\r\n.slideshow .s1 {background: 87px 0 no-repeat;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
       href=\"/enroll/\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk
@@ -2567,30 +2591,32 @@ page_parts:
       class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 11:02:18.000000000Z
+    - 2011-12-06 12:05:06.000000000Z
   - - 140
     - 70
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 11:02:18.000000000Z
+    - 2011-12-06 12:05:06.000000000Z
   - - 141
     - 71
     - Body
-    - ! "<style type=\"text/css\">\r\n.slideshow .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-image: 100% 0 no-repeat;}\r\n.slideshow
+      .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
-      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
+      class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 10:14:39.000000000Z
+    - 2011-12-06 12:55:13.000000000Z
   - - 142
     - 71
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 10:14:39.000000000Z
+    - 2011-12-06 12:55:13.000000000Z
   - - 143
     - 72
     - Body
@@ -3861,15 +3887,15 @@ pages:
     - true
     - ''
     - !!null 
-    - true
+    - false
     - none
     - false
     - false
     - 23
     - 28
     - !!null 
-    - !!null 
-    - !!null 
+    - success_stories
+    - success_stories
   - - 40
     - 28
     - 20
@@ -4325,7 +4351,7 @@ pages:
     - 41
     - !!null 
     - 2011-12-04 10:43:06.000000000Z
-    - 2011-12-04 10:43:39.000000000Z
+    - 2011-12-06 12:48:50.000000000Z
     - true
     - ''
     - !!null 
@@ -4361,7 +4387,7 @@ pages:
     - 44
     - !!null 
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 11:02:45.000000000Z
+    - 2011-12-06 12:05:35.000000000Z
     - true
     - ''
     - !!null 
@@ -4379,7 +4405,7 @@ pages:
     - 45
     - !!null 
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 11:02:18.000000000Z
+    - 2011-12-06 12:05:06.000000000Z
     - true
     - ''
     - !!null 
@@ -4397,7 +4423,7 @@ pages:
     - 46
     - !!null 
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 10:14:39.000000000Z
+    - 2011-12-06 12:55:13.000000000Z
     - true
     - ''
     - !!null 
