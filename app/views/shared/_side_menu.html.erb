@@ -8,7 +8,7 @@
 <aside>
     <ul>
       <% side_menu.each do |val| %>
-        <li<%= ' class="act"'.html_safe if @page.id == val.id %>><span><%= link_to val.title, val.url %></span></li>
+        <li<%= ' class="act"'.html_safe if @page.id == val.id || my_path(@page.id).include?(val.id) %>><span><%= link_to val.title, val.url %></span></li>
       <% end %>
         <li class="last"></li>
     </ul>
