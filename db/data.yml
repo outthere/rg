@@ -54,15 +54,15 @@ image_pages:
     - !!null 
   - - 11
     - 70
-    - 36
+    - 38
     - !!null 
   - - 12
     - 69
-    - 34
+    - 37
     - !!null 
   - - 13
     - 71
-    - 35
+    - 39
     - !!null 
 
 ---
@@ -1669,13 +1669,13 @@ page_part_translations:
     - 137
     - en
     - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
-      .s2 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
+      .s2 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
       .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 07:52:05.000000000Z
+    - 2011-12-07 09:37:25.000000000Z
   - - 293
     - 138
     - en
@@ -1702,7 +1702,8 @@ page_part_translations:
       no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       a.enroll {position:absolute;width:161px;height:42px;background-image:url(../images/btn_enroll.png);}\r\n.slideshow
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
-      .s1 a.enroll {top:272px;left:717px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
+      .s1 a.enroll {top:272px;left:717px;}\r\n\r\na.minsk {top:154px;left:298px;}\r\na.dnepr
+      {top:169px;left:395px;}\r\na.aires {top:359px;left:215px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
       href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a href=\"/traning-centers/minsk\"
       class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
@@ -1710,7 +1711,7 @@ page_part_translations:
       href=\"/traning-centers/buenos-aires\" class=\"plate aires arrl\"><span><strong>Buenos
       Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 08:54:10.000000000Z
+    - 2011-12-07 10:06:44.000000000Z
   - - 297
     - 140
     - en
@@ -2022,14 +2023,14 @@ page_parts:
     - ''
     - 0
     - 2011-11-17 09:48:33.000000000Z
-    - 2011-12-01 15:02:02.000000000Z
+    - 2011-12-07 10:10:18.000000000Z
   - - 58
     - 29
     - Side Body
     - ''
     - 1
     - 2011-11-17 09:48:33.000000000Z
-    - 2011-12-01 15:02:02.000000000Z
+    - 2011-12-07 10:10:18.000000000Z
   - - 59
     - 30
     - Body
@@ -2499,21 +2500,21 @@ page_parts:
     - 69
     - Body
     - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
-      .s2 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
+      .s2 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
       .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 07:52:05.000000000Z
+    - 2011-12-07 09:37:25.000000000Z
   - - 138
     - 69
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 07:52:05.000000000Z
+    - 2011-12-07 09:37:26.000000000Z
   - - 139
     - 70
     - Body
@@ -2522,7 +2523,8 @@ page_parts:
       no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       a.enroll {position:absolute;width:161px;height:42px;background-image:url(../images/btn_enroll.png);}\r\n.slideshow
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
-      .s1 a.enroll {top:272px;left:717px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
+      .s1 a.enroll {top:272px;left:717px;}\r\n\r\na.minsk {top:154px;left:298px;}\r\na.dnepr
+      {top:169px;left:395px;}\r\na.aires {top:359px;left:215px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
       href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a href=\"/traning-centers/minsk\"
       class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
@@ -2531,14 +2533,14 @@ page_parts:
       Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 08:54:10.000000000Z
+    - 2011-12-07 10:06:44.000000000Z
   - - 140
     - 70
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 08:54:10.000000000Z
+    - 2011-12-07 10:06:44.000000000Z
   - - 141
     - 71
     - Body
@@ -2549,14 +2551,14 @@ page_parts:
       class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 07:53:08.000000000Z
+    - 2011-12-07 10:08:07.000000000Z
   - - 142
     - 71
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 07:53:08.000000000Z
+    - 2011-12-07 10:08:07.000000000Z
   - - 143
     - 72
     - Body
@@ -2688,10 +2690,10 @@ page_translations:
   - - 31
     - 29
     - en
-    - Traning centers
+    - Training centers
     - ''
     - 2011-11-17 09:48:33.000000000Z
-    - 2011-11-17 09:48:33.000000000Z
+    - 2011-12-07 10:09:51.000000000Z
   - - 32
     - 30
     - en
@@ -2828,21 +2830,21 @@ page_translations:
   - - 54
     - 52
     - en
-    - Minsk - contacts
+    - Minsk
     - ''
     - 2011-11-17 10:32:10.000000000Z
     - 2011-12-06 07:31:32.000000000Z
   - - 55
     - 53
     - en
-    - Dnepropetrovsk - contacts
+    - Dnepropetrovsk
     - ''
     - 2011-11-17 10:32:44.000000000Z
     - 2011-12-07 08:22:37.000000000Z
   - - 57
     - 55
     - en
-    - Buenos Aires - contacts
+    - Buenos Aires
     - ''
     - 2011-11-17 10:33:37.000000000Z
     - 2011-12-06 07:34:28.000000000Z
@@ -3017,42 +3019,42 @@ page_translations:
   - - 83
     - 52
     - ru
-    - Minsk - contacts
+    - Minsk
     - ''
     - 2011-11-30 10:33:36.000000000Z
     - 2011-12-06 07:31:51.000000000Z
   - - 84
     - 52
     - es
-    - Minsk - contacts
+    - Minsk
     - ''
     - 2011-11-30 10:33:51.000000000Z
     - 2011-12-06 07:32:17.000000000Z
   - - 85
     - 53
     - ru
-    - Dnepropetrovsk - contacts
+    - Dnepropetrovsk
     - ''
     - 2011-11-30 10:34:34.000000000Z
     - 2011-12-07 08:54:41.000000000Z
   - - 86
     - 53
     - es
-    - Dnepropetrovsk - contacts
+    - Dnepropetrovsk
     - ''
     - 2011-11-30 10:34:58.000000000Z
     - 2011-12-07 08:55:04.000000000Z
   - - 89
     - 55
     - ru
-    - Buenos Aires - contacts
+    - Buenos Aires
     - ''
     - 2011-11-30 10:36:33.000000000Z
     - 2011-12-06 07:34:41.000000000Z
   - - 90
     - 55
     - es
-    - Buenos Aires - contacts
+    - Buenos Aires
     - ''
     - 2011-11-30 10:36:56.000000000Z
     - 2011-12-06 07:35:21.000000000Z
@@ -3220,17 +3222,17 @@ page_translations:
   - - 116
     - 29
     - ru
-    - Traning centers
+    - Training centers
     - ''
     - 2011-12-01 15:01:46.000000000Z
-    - 2011-12-01 15:01:46.000000000Z
+    - 2011-12-07 10:10:05.000000000Z
   - - 117
     - 29
     - es
-    - Traning centers
+    - Training centers
     - ''
     - 2011-12-01 15:02:02.000000000Z
-    - 2011-12-01 15:02:02.000000000Z
+    - 2011-12-07 10:10:18.000000000Z
   - - 118
     - 30
     - ru
@@ -3388,10 +3390,10 @@ page_translations:
   - - 146
     - 69
     - en
-    - slide 2
+    - slide 2 - Evgen
     - ''
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-04 16:06:20.000000000Z
+    - 2011-12-07 09:30:12.000000000Z
   - - 147
     - 69
     - ru
@@ -3430,10 +3432,10 @@ page_translations:
   - - 152
     - 71
     - en
-    - slide 3
+    - slide 3 - Vadim
     - ''
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-04 16:10:07.000000000Z
+    - 2011-12-07 10:08:07.000000000Z
   - - 153
     - 71
     - ru
@@ -3637,7 +3639,7 @@ pages:
     - 9
     - !!null 
     - 2011-11-17 09:48:33.000000000Z
-    - 2011-12-01 15:02:02.000000000Z
+    - 2011-12-07 10:10:18.000000000Z
     - true
     - ''
     - !!null 
@@ -4249,7 +4251,7 @@ pages:
     - 44
     - !!null 
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 07:52:05.000000000Z
+    - 2011-12-07 09:37:25.000000000Z
     - true
     - ''
     - !!null 
@@ -4267,7 +4269,7 @@ pages:
     - 45
     - !!null 
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 08:54:10.000000000Z
+    - 2011-12-07 10:06:44.000000000Z
     - true
     - ''
     - !!null 
@@ -4285,7 +4287,7 @@ pages:
     - 46
     - !!null 
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 07:53:08.000000000Z
+    - 2011-12-07 10:08:07.000000000Z
     - true
     - ''
     - !!null 
@@ -5499,11 +5501,11 @@ seo_meta:
   - - 71
     - 31
     - Page::Translation
-    - !!null 
-    - !!null 
-    - !!null 
+    - ''
+    - ''
+    - ''
     - 2011-12-02 12:34:29.000000000Z
-    - 2011-12-02 12:34:29.000000000Z
+    - 2011-12-07 10:09:51.000000000Z
   - - 72
     - 31
     - Page::Translation
@@ -7604,6 +7606,46 @@ slugs:
     - Page
     - !!null 
     - 2011-12-07 08:56:14.000000000Z
+    - es
+  - - 396
+    - slide-2-evgen
+    - 69
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-07 09:30:12.000000000Z
+    - en
+  - - 397
+    - slide-3-vadim
+    - 71
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-07 10:08:07.000000000Z
+    - en
+  - - 398
+    - training-centers
+    - 29
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-07 10:09:51.000000000Z
+    - en
+  - - 399
+    - training-centers
+    - 29
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-07 10:10:05.000000000Z
+    - ru
+  - - 400
+    - training-centers
+    - 29
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-07 10:10:18.000000000Z
     - es
 
 ---

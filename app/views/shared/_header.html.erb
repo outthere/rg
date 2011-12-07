@@ -1,4 +1,4 @@
-<div class="wrap hdr">
+<div class="wrap hdr idx">
 	<header>
 		<a class="logo" href="/<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>"></a>
 
@@ -9,28 +9,3 @@
         <%= language_selector %>
 	</header>
 </div>
-<div>
-  <%#= @page.parts.inspect %>
-  <%#= @page.slug.inspect %>
-  <%#= Page.find_by_id(35).parent.slug.inspect %>
-  <%#= Page.find_by_id(35).parent.id.inspect %>
-  <%#= my_path(35).inspect %>
-  <%#= @page.nested_path.inspect %>
-</div>
-<!-- div>
-<nav id='locale'>
-   <%#= @menu_pages.inspect %>
-
-
- </nav>
-  <%# @menu_pages = ::Page.live.in_menu %>
-  ++++++++++
-
-  <div class='submenu'>
-    <%#= render :partial => "/shared/menu", :locals => {
-      #:roots => @menu_pages.select{|p| p.parent_id == @page.root.id}
-      :roots => @menu_pages.select{|p| p.parent_id == 25}
-    } %>
-  </div>
-
-</div -->

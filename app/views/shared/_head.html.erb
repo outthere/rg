@@ -5,19 +5,19 @@
   <%= csrf_meta_tag %>
   <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag "styles.css" %>
-    <%#= stylesheet_link_tag "livetwitter.css" %>
 
+  <!--[if lt IE 9]>
+          <%= javascript_include_tag('html5') %>
+  <![endif]-->
   <% content_for :javascripts do %>
-    <%= javascript_include_tag('html5', 'jquery-1.7.min', 'jquery.tools','script' ) %>
+    <%= javascript_include_tag('jquery-1.7.min', 'jquery.tools','script' ) %>
   <% end %>
+
   <% content_for :javascripts do %>
     <%= javascript_include_tag('jquery.livetwitter.min.js') %>
   <% end %>
 
-
   <%= yield :javascripts %>
-
-
 
   <link rel="shortcut icon" href="/favicon.ico" />
   <meta charset='<%= Refinery::Application.config.encoding %>' />

@@ -10,20 +10,16 @@
  %>
 
 <div class="wrap sld">
-  <section id="slideshow_container">
-      <div class="slideshow">
-          <ul class="items">
+	<section id="slideshow_container">
+		<div class="slideshow">
+			<ul class="items">
+
           <style type="text/css">
               #slideshow_container {position:relative;width:100%;overflow:hidden;padding:0;}
-              /*.slideshow {position:relative;left:50%;overflow:hidden;width:1200px;height:460px;margin-left:-600px;}
-              .slideshow .items {position:absolute;width:20000em;}
-              .slideshow .items li {float:left;position:relative;width:1200px;height:460px;}
-              .slideshow .items li div {position:relative;width:1026px;height:460px;margin:0 87px;}*/
               .slideshow {position:relative;left:50%;overflow:hidden;width:1700px;height:460px;margin-left:-850px;}
               .slideshow .items {position:absolute;width:20000em;}
               .slideshow .items li {float:left;position:relative;width:1700px;height:460px;}
               .slideshow .items li div {position:relative;width:1026px;height:460px;margin:0 337px;}
-
 <% cnt=1
    Page.find_by_constant_name('slides').children.each do |cld|
 %>

@@ -178,6 +178,7 @@ h2 .notice {position:relative;left:25px;*top:-4px;padding:0 0 0 23px;background-
 h2 .notice span {position:relative;top:-5px;*top:-1px;padding:0 17px 0 0;line-height:42px;color:#fff;font-size:16px;font-weight:normal;}
 
 #slide_nav {position:absolute;top:430px;left:50%;z-index:1;height:30px;width:89px;margin-left:-44px;background:url(../images/plate.png) no-repeat;}
+
 .navi a {width:16px;height:16px;margin:7px 6px 0;background:url(../images/plate_element.png) no-repeat;float:left;font:0/0 serif;}
 .navi a:hover {background-position:0 -32px;}
 .navi a.active {background-position:0 -16px !important;}
@@ -193,6 +194,4 @@ a.plate.arrl span {background-position:100% -33px;}
 a.plate.arrl span strong {padding:0 0 0 4px;}
 a.plate:hover, a.plate:hover span, a.plate:hover span strong {background-image:url(../images/map_plate_hover.png);}
 
-a.minsk {top:154px;left:298px;}
-a.dnepr {top:169px;left:395px;}
-a.aires {top:359px;left:215px;}
+
