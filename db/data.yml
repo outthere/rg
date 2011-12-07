@@ -58,11 +58,11 @@ image_pages:
     - !!null 
   - - 12
     - 69
-    - 31
+    - 34
     - !!null 
   - - 13
     - 71
-    - 32
+    - 35
     - !!null 
 
 ---
@@ -1745,9 +1745,9 @@ page_part_translations:
       .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
-      />geeks like you</h3>\r\n\t\t\t\t\t\t<a class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 18:13:00.000000000Z
+    - 2011-12-07 07:52:05.000000000Z
   - - 293
     - 138
     - en
@@ -1776,11 +1776,13 @@ page_part_translations:
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
       .s1 a.enroll {top:272px;left:717px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
-      class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
+      href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a href=\"/traning-centers/minsk\"
+      class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
       class=\"plate dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
-      class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
+      href=\"/traning-centers/buenos-aires\" class=\"plate aires arrl\"><span><strong>Buenos
+      Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 18:41:07.000000000Z
+    - 2011-12-07 07:51:19.000000000Z
   - - 297
     - 140
     - en
@@ -1829,9 +1831,10 @@ page_part_translations:
     - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
       .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
-      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
+      class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 18:13:23.000000000Z
+    - 2011-12-07 07:53:08.000000000Z
   - - 305
     - 142
     - en
@@ -2600,17 +2603,17 @@ page_parts:
       .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
-      />geeks like you</h3>\r\n\t\t\t\t\t\t<a class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 18:25:22.000000000Z
+    - 2011-12-07 07:52:05.000000000Z
   - - 138
     - 69
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 18:25:22.000000000Z
+    - 2011-12-07 07:52:05.000000000Z
   - - 139
     - 70
     - Body
@@ -2621,36 +2624,39 @@ page_parts:
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
       .s1 a.enroll {top:272px;left:717px;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h2>Winter
       classes<br />begin December 1<sup>st</sup>\r\n<br />in Minsk, Belarus</h2>\r\n\t\t\t\t\t\t<a
-      class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
+      href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t\t<a href=\"/traning-centers/minsk\"
+      class=\"plate minsk arrr\"><span><strong>Minsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
       class=\"plate dnepr arrl\"><span><strong>Dnepropetrovsk</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t\t<a
-      class=\"plate aires arrl\"><span><strong>Buenos Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
+      href=\"/traning-centers/buenos-aires\" class=\"plate aires arrl\"><span><strong>Buenos
+      Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 18:41:06.000000000Z
+    - 2011-12-07 07:51:19.000000000Z
   - - 140
     - 70
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 18:41:07.000000000Z
+    - 2011-12-07 07:51:19.000000000Z
   - - 141
     - 71
     - Body
     - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
       .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
-      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
+      Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
+      class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 18:25:48.000000000Z
+    - 2011-12-07 07:53:08.000000000Z
   - - 142
     - 71
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 18:25:48.000000000Z
+    - 2011-12-07 07:53:08.000000000Z
   - - 143
     - 72
     - Body
@@ -4421,7 +4427,7 @@ pages:
     - 44
     - !!null 
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-06 18:25:22.000000000Z
+    - 2011-12-07 07:52:05.000000000Z
     - true
     - ''
     - !!null 
@@ -4439,7 +4445,7 @@ pages:
     - 45
     - !!null 
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-06 18:41:06.000000000Z
+    - 2011-12-07 07:51:19.000000000Z
     - true
     - ''
     - !!null 
@@ -4457,7 +4463,7 @@ pages:
     - 46
     - !!null 
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-06 18:25:48.000000000Z
+    - 2011-12-07 07:53:08.000000000Z
     - true
     - ''
     - !!null 
