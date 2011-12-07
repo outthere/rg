@@ -54,11 +54,11 @@ image_pages:
     - !!null 
   - - 11
     - 70
-    - 38
+    - 41
     - !!null 
   - - 12
     - 69
-    - 37
+    - 40
     - !!null 
   - - 13
     - 71
@@ -1670,12 +1670,12 @@ page_part_translations:
     - en
     - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
       .s2 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
-      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+      .s2 h3 {position:absolute;top:107px;left:727px;width:500;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 09:37:25.000000000Z
+    - 2011-12-07 14:21:13.000000000Z
   - - 293
     - 138
     - en
@@ -1697,8 +1697,8 @@ page_part_translations:
   - - 296
     - 139
     - en
-    - ! "<br /><style type=\"text/css\">\r\n.slideshow .s1 {background-position:337px
-      0;background-repeat:no-repeat;}\r\n.slideshow .s1 .r {position:absolute;top:0;right:-383px;width:470px;height:460px;margin:0;background:url(../images/slide_map2_r.png)
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 {background-position:337px 0;background-repeat:no-repeat;}\r\n.slideshow
+      .s1 .r {position:absolute;top:0;right:-383px;width:470px;height:460px;margin:0;background:url(../images/slide_map2_r.png)
       no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       a.enroll {position:absolute;width:161px;height:42px;background-image:url(../images/btn_enroll.png);}\r\n.slideshow
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
@@ -1711,7 +1711,7 @@ page_part_translations:
       href=\"/traning-centers/buenos-aires\" class=\"plate aires arrl\"><span><strong>Buenos
       Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 10:06:44.000000000Z
+    - 2011-12-07 14:25:33.000000000Z
   - - 297
     - 140
     - en
@@ -1757,13 +1757,13 @@ page_part_translations:
   - - 304
     - 141
     - en
-    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
       .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
       Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
       class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 07:53:08.000000000Z
+    - 2011-12-07 14:09:06.000000000Z
   - - 305
     - 142
     - en
@@ -2501,25 +2501,25 @@ page_parts:
     - Body
     - ! "<style type=\"text/css\">\r\n.slideshow .s2 a.enroll {top:306px;left:727px;}\r\n.slideshow
       .s2 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
-      .s2 h3 {position:absolute;top:107px;left:727px;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
+      .s2 h3 {position:absolute;top:107px;left:727px;width:500;font-size:24px;font-weight:normal;}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>60
       days</strong> of intensive work <br />with instructors with <strong>7+</strong>
       <br />years hands-on <strong>Ruby</strong> <br />experience in a team of <br
       />geeks like you</h3>\r\n\t\t\t\t\t\t<a href=\"/enroll\" class=\"enroll\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 09:37:25.000000000Z
+    - 2011-12-07 14:21:13.000000000Z
   - - 138
     - 69
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 09:37:26.000000000Z
+    - 2011-12-07 14:21:13.000000000Z
   - - 139
     - 70
     - Body
-    - ! "<br /><style type=\"text/css\">\r\n.slideshow .s1 {background-position:337px
-      0;background-repeat:no-repeat;}\r\n.slideshow .s1 .r {position:absolute;top:0;right:-383px;width:470px;height:460px;margin:0;background:url(../images/slide_map2_r.png)
+    - ! "<style type=\"text/css\">\r\n.slideshow .s1 {background-position:337px 0;background-repeat:no-repeat;}\r\n.slideshow
+      .s1 .r {position:absolute;top:0;right:-383px;width:470px;height:460px;margin:0;background:url(../images/slide_map2_r.png)
       no-repeat;}\r\n.slideshow .s1 h2 {position:absolute;top:125px;left:717px;font-size:30px;}\r\n.slideshow
       a.enroll {position:absolute;width:161px;height:42px;background-image:url(../images/btn_enroll.png);}\r\n.slideshow
       a.enroll:hover, .slideshow a.watch:hover {background-position:0 -42px;}\r\n.slideshow
@@ -2533,32 +2533,32 @@ page_parts:
       Aires</strong>\r\n</span>\r\n</a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 10:06:44.000000000Z
+    - 2011-12-07 14:25:33.000000000Z
   - - 140
     - 70
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 10:06:44.000000000Z
+    - 2011-12-07 14:25:33.000000000Z
   - - 141
     - 71
     - Body
-    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100% 0;background-repeat:no-repeat;}\r\n.slideshow
+    - ! "<style type=\"text/css\">\r\n.slideshow .s3 {background-position:100px 0;background-repeat:no-repeat;}\r\n.slideshow
       .s3 h3 {position:absolute;top:150px;left:727px;font-size:24px;font-weight:normal;}\r\n.slideshow
       .s3 a.watch {position:absolute;top:246px;left:727px;width:226px;height:42px;background-image:url(../images/btn_watch.png);}\r\n</style>\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h3><strong>Vadim
       Golub</strong>: my way to<br />RightScale</h3>\r\n\t\t\t\t\t\t<a href=\"/apprenticeship/success-stories/2011/vadim\"
       class=\"watch\"></a>\r\n\t\t\t\t\t</div>\r\n"
     - 0
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 10:08:07.000000000Z
+    - 2011-12-07 14:09:05.000000000Z
   - - 142
     - 71
     - Side Body
     - ''
     - 1
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 10:08:07.000000000Z
+    - 2011-12-07 14:09:06.000000000Z
   - - 143
     - 72
     - Body
@@ -4251,7 +4251,7 @@ pages:
     - 44
     - !!null 
     - 2011-12-04 16:06:20.000000000Z
-    - 2011-12-07 09:37:25.000000000Z
+    - 2011-12-07 14:21:12.000000000Z
     - true
     - ''
     - !!null 
@@ -4269,7 +4269,7 @@ pages:
     - 45
     - !!null 
     - 2011-12-04 16:08:44.000000000Z
-    - 2011-12-07 10:06:44.000000000Z
+    - 2011-12-07 14:25:33.000000000Z
     - true
     - ''
     - !!null 
@@ -4287,7 +4287,7 @@ pages:
     - 46
     - !!null 
     - 2011-12-04 16:10:07.000000000Z
-    - 2011-12-07 10:08:07.000000000Z
+    - 2011-12-07 14:09:05.000000000Z
     - true
     - ''
     - !!null 

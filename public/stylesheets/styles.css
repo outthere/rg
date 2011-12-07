@@ -20,7 +20,7 @@ body {min-width:1226px;font:16px 'PT Sans Caption', Arial, sans-serif;color:#c2c
 
 .wrap.hdr {position:relative;overflow:visible;z-index:9;height:106px;background:url(../images/bg_hdr.png) repeat-x;}
 header {position:relative;}
-header .logo {float:left;width:229px;height:72px;margin:14px 0 0;background:url(../images/logo_gardens.png) no-repeat;}
+header .logo {position:relative;z-index:9;float:left;width:229px;height:72px;margin:14px 0 0;background:url(../images/logo_gardens.png) no-repeat;}
 .idx .logo {margin-left:-20px;}
 header nav {position:relative;left:67px;height:66px;padding:33px 0 0;}
 header nav > ul > li {float:left;height:33px;margin:0 18px 0 0;padding:0 0 0 11px;}

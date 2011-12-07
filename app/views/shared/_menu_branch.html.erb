@@ -4,12 +4,12 @@
   children = hide_children ? [] : collection.select { |p| p.parent_id == menu_branch.id  }
 -%>
 <li <%= 'class="act"'.html_safe if @page_path_arr.include?(menu_branch.id) %> >
-  <%= link_to menu_branch.title, menu_branch.url %>
-
+  <%#= link_to menu_branch.title, menu_branch.url %>
+  <a href=""><%= menu_branch.title %></a>
   <% if children.present? %>
     <ul class="sec">
       <li class="fst"><span></span></li>
-      <li><span><%= link_to menu_branch.title, menu_branch.url %></span></li>
+      <li><span><b><%= menu_branch.title %></b></span></li>
       <%#= children.inspect  %>
       <% children.each do |val| %>
         <li><span>
