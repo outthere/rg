@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+<%
+   menu_tmp=[]
+   @menu_pages.each do |val|
+     if val[:url]["path"]
+       val[:url]["path"]=val[:url]["path"].drop(1) if ['top-menu','bottom-menu'].include?(val[:url]["path"].first)
+       menu_tmp << val
+     end
+   end
+   @menu_pages=menu_tmp
+%>
   <%= render :partial => "/shared/head" %>
 <body>
   <%= render :partial => "/shared/header" %>

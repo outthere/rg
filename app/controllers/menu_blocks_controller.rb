@@ -1,7 +1,8 @@
 class MenuBlocksController < ApplicationController
 
+  before_filter :find_page, :only => [:create, :new]
+
   before_filter :find_all_menu_blocks
-  before_filter :find_page
 
   def index
     # you can use meta fields from your model instead (e.g. browser_title)
@@ -19,22 +20,12 @@ class MenuBlocksController < ApplicationController
 
   def new
     @menu_block =MenuBlock.new
+    present(@page)
   end
 
   def create
     @menu_block =MenuBlock.new(params[:menu_block])
-
-    if @meetup.save
-      flash[:notice] = t('meetup.create_ok')
-      redirect_to admin_meetups_url
-    else
-      respond_to do |format|
-        format.html  { render :action => "new" }
-        format.json  { head :ok }
-      end
-    end
-
-
+    present(@page)
   end
 
 protected

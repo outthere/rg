@@ -1,0 +1,163 @@
+<%
+  show_empty_sections ||= false
+  remove_automatic_sections ||= false
+  hide_sections ||= []
+
+  sections = [
+    {:yield => :body_content_title, :fallback => page_title, :id => 'body_content_page_title', :title => true},
+    {:yield => :body_content_left, :fallback => (@page.present? ? @page[Page.default_parts.first.to_sym] : nil)},
+    {:yield => :body_content_sidebar, :fallback => nil},
+    {:yield => :body_content_right, :fallback => (@page.present? ? @page[Page.default_parts.second.to_sym] : nil)}
+  ].reject {|section| hide_sections.include?(section[:yield]) }
+
+  css = []
+  sections.each do |section|
+    dom_id = (section[:id] ||= section[:yield].to_s)
+    section[:html] = (yield(section[:yield]))
+
+    if section[:html].blank? and
+       !show_empty_sections and
+       !remove_automatic_sections and
+       section.keys.include?(:fallback) and
+       section[:fallback].present?
+      section[:html] = section[:fallback].to_s.html_safe
+    end
+
+    unless section[:html].blank?
+      unless section[:title]
+        section[:html] = "<div class='clearfix' id='#{dom_id}'>#{section[:html]}</div>"
+      else
+        section[:html] = "<h1 id='#{dom_id}'>#{section[:html]}</h1>"
+      end
+    else
+      css << "no_#{dom_id}"
+    end
+  end
+-%>
+<% if my_path(@page.id).include?(Page.find_by_constant_name('success_stories').id) %>
+
+    <%
+      years=@menu_pages.select { |m| m.parent_id == Page.find_by_constant_name('success_stories').id }
+      years_block=""
+      jq_block=""
+      persons_block={}
+      years.each do |val|
+        years_block << ' <li><a id="a'
+        years_block << val.title
+        years_block << '">'
+        years_block << val.title
+        years_block << '</a></li> '
+
+        jq_block << ' $("#a'
+        jq_block << val.title
+        jq_block << '").click(function () { $("#nameblock").html($("#u'
+        jq_block << val.title
+        jq_block << '").html() );}); '
+
+        persons=@menu_pages.select { |m| m.parent_id ==val.id }
+        persons.each do |one_person|
+          persons_block["<ul class=\"items\" id=\"u#{val.title}\">"]  =  "<li>" + link_to( one_person.title, one_person.url ) + "</li>"
+        end
+      end
+    %>
+
+    <div class="choose_wrap story">
+      <div class="choose period">
+          <div class="next1"><i></i></div>
+          <div class="prev1"><i></i></div>
+          <div class="scroller">
+              <ul class="items">
+                <%= years_block.html_safe %>
+              </ul>
+          </div>
+      </div>
+
+      <div class="choose issues">
+          <div class="next2"><i></i></div>
+          <div class="prev2"><i></i></div>
+          <div class="scroller">
+              <ul class="items" id="nameblock">
+                <%= persons_block.values.first.html_safe %>
+              </ul>
+          </div>
+      </div>
+
+      <div style="display:none;visibility:hidden;">
+          <% persons_block.each_pair do |key, val| %>
+            <%= key.html_safe %>
+            <%= val.html_safe %>
+            </ul>
+          <% end %>
+      </div>
+
+      <script>
+      $(document).ready(function(){
+         <%= jq_block.html_safe %>
+      });
+      </script>
+
+    </div>
+<!--
+    <div class="choose_wrap story">
+        <div class="choose period">
+            <div class="next1"><i></i></div>
+            <div class="prev1"><i></i></div>
+            <div class="scroller">
+                <ul class="items">
+                    <li><a  id="a2010">2010</a></li>
+                    <li><a  id="a2011">2011</a></li>
+                    <li><a  id="a2012">2012</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="choose issues">
+            <div class="next2"><i></i></div>
+            <div class="prev2"><i></i></div>
+            <div class="scroller">
+                <ul class="items" id="nameblock">
+                    <li><a href="">Some</a></li>
+                    <li><a href="">Ome</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+<div style="display:none;visibility:hidden;">
+                <ul class="items" id="u2010">
+                    <li><a href="">Pavlek</a></li>
+                    <li><a href="">Vadim</a></li>
+                </ul>
+                <ul class="items" id="u2011">
+                    <li><a href="">Oleg</a></li>
+                    <li><a href="">Vlad</a></li>
+                    <li><a href="">Gregory</a></li>
+                </ul>
+                <ul class="items" id="u2012">
+                    <li><a href="">Kolian</a></li>
+                    <li><a href="">Michail</a></li>
+                </ul>
+
+</div>
+<script>
+$(document).ready(function(){
+$("#a2010").click(function () {
+$("#nameblock").html($("#u2010").html() );
+});
+$("#a2011").click(function () {
+$("#nameblock").html($("#u2011").html() );
+});
+$("#a2012").click(function () {
+$("#nameblock").html($("#u2012").html() );
+});
+});
+</script>
+
+-->
+
+<% end %>
+<div id='body_content' class='clearfix<%= " #{css.join(' ')}" if css.any? %>'>
+  <% sections.each do |s| %>
+    <%= s[:html].to_s.html_safe %>
+  <% end %>
+</div>
+<%= render :partial => '/shared/draft_page_message' unless @page.nil? or @page.live? -%>
