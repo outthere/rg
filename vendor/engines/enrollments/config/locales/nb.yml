@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    enrollments:
+      title: Enrollments
+  admin:
+    enrollments:
+      actions:
+        create_new: Lag en ny Enrollment
+        reorder: Endre rekkefølgen på Enrollments
+        reorder_done: Ferdig å endre rekkefølgen Enrollments
+      records:
+        title: Enrollments
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Enrollments enda. Klikk på "Lag en ny Enrollment" for å legge til din første enrollment.
+      enrollment:
+        view_live_html: Vis hvordan denne enrollment ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne enrollment
+        delete: Fjern denne enrollment permanent
+  enrollments:
+    show:
+      other: Andre Enrollments

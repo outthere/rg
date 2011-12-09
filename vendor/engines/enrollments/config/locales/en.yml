@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    enrollments:
+      title: Enrollments
+  admin:
+    enrollments:
+      actions:
+        create_new: Add New Enrollment
+        reorder: Reorder Enrollments
+        reorder_done: Done Reordering Enrollments
+      records:
+        title: Enrollments
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Enrollments yet. Click "Add New Enrollment" to add your first enrollment.
+      enrollment:
+        view_live_html: View this enrollment live <br/><em>(opens in a new window)</em>
+        edit: Edit this enrollment
+        delete: Remove this enrollment forever
+  enrollments:
+    show:
+      other: Other Enrollments

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111204113621) do
+ActiveRecord::Schema.define(:version => 20111208144830) do
 
   create_table "blog_categories", :force => true do |t|
     t.string   "title"
@@ -57,6 +57,21 @@ ActiveRecord::Schema.define(:version => 20111204113621) do
 
   add_index "blog_posts", ["id"], :name => "index_blog_posts_on_id"
 
+  create_table "enrollments", :force => true do |t|
+    t.string   "name"
+    t.string   "place"
+    t.string   "program_type"
+    t.string   "when_to_start"
+    t.integer  "resume_id"
+    t.string   "phone"
+    t.text     "comment"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "enrollments", ["id"], :name => "index_enrollments_on_id"
+
   create_table "image_pages", :id => false, :force => true do |t|
     t.integer "image_id"
     t.integer "page_id"
@@ -77,6 +92,26 @@ ActiveRecord::Schema.define(:version => 20111204113621) do
     t.datetime "updated_at"
     t.string   "image_uid"
     t.string   "image_ext"
+  end
+
+  create_table "inquiries", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.text     "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "spam",       :default => false
+  end
+
+  add_index "inquiries", ["id"], :name => "index_inquiries_on_id"
+
+  create_table "inquiry_settings", :force => true do |t|
+    t.string   "name"
+    t.text     "value"
+    t.boolean  "destroyable"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "menu_blocks", :force => true do |t|

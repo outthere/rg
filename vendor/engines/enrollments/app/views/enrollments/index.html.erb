@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="enrollments">
+    <% @enrollments.each do |enrollment| %>
+      <li>
+        <%= link_to enrollment.name, enrollment_path(enrollment) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

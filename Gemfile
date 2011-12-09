@@ -76,3 +76,4 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 # END USER DEFINED
 
 gem 'refinerycms-menu_blocks', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-enrollments', '1.0', :path => 'vendor/engines'

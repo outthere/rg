@@ -74,4 +74,22 @@ Rg::Application.routes.draw do
     end
   end
 
+  resources :enrollments,
+            :only => :create,
+            :as => :enrollments,
+            :controller => 'enrollments' do
+    collection do
+      get :thank_you_for_enrolling
+    end
+  end
+
+  resources :enrollments, :only => [:index, :show, :new]
+    scope(:path => 'refinery', :as => 'admin', :module => 'admin') do
+      resources :enrollments, :except => :show do
+        collection do
+        post :update_positions
+      end
+    end
+  end
+
 end

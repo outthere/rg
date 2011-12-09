@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    enrollments:
+      title: Enrollments
+  admin:
+    enrollments:
+      actions:
+        create_new: Maak een nieuwe Enrollment
+        reorder: Wijzig de volgorde van de Enrollments
+        reorder_done: Klaar met het wijzingen van de volgorde van de Enrollments
+      records:
+        title: Enrollments
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Enrollments. Druk op 'Maak een nieuwe Enrollment' om de eerste aan te maken.
+      enrollment:
+        view_live_html: Bekijk deze enrollment op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze enrollment
+        delete: Verwijder deze enrollment voor eeuwig
+  enrollments:
+    show:
+      other: Andere Enrollments

@@ -1,0 +1,64 @@
+<%= form_for @enrollment, :html => { :method => 'post', :multipart => true } do |f| -%>
+    <%
+       training_place_of=[]
+       training_type_of_program=[]
+       training_when_to_start=[]
+       #options_for_select
+
+       training_place_of=RefinerySetting.find_by_name( :training_place_of ).value[locale].each { |val| training_place_of << [val,val] }
+       training_type_of_program=RefinerySetting.find_by_name( :training_type_of_program ).value[locale].each { |val| training_type_of_program << [val,val] }
+       training_when_to_start=RefinerySetting.find_by_name( :training_when_to_start ).value[locale].each { |val| training_when_to_start << [val,val] }
+
+    #   params[:place]
+    #   params[:program_type]
+    #   params[:when_to_start]
+
+    %>
+
+    <div class="form big">
+        <div class="top"></div>
+        <div class="bot"></div>
+
+  <p>
+    <%= f.label :name -%>
+    <%= f.text_field :name -%>
+  </p>
+  
+  <p>
+    <%= f.label :place -%>
+    <%#= f.text_field :place  -%>
+    <%= select_tag 'place', options_for_select(training_place_of, params[:place]) %>
+  </p>
+  
+  <p>
+    <%= f.label :program_type -%>
+    <%#= f.text_field :program_type  -%>
+    <%= select_tag 'place', options_for_select(training_type_of_program, params[:place]) %>
+  </p>
+  
+  <p>
+    <%= f.label :when_to_start -%>
+    <%#= f.text_field :when_to_start  -%>
+    <%= select_tag 'place', options_for_select(training_when_to_start, params[:place]) %>
+  </p>
+  
+  <p>
+    <%= f.label :resume -%>
+    <%= f.file_field :resume %>
+  </p>
+  
+  <p>
+    <%= f.label :phone -%>
+    <%= f.text_field :phone  -%>
+  </p>
+  
+  <p>
+    <%= f.label :comments -%>
+    <span class="tarea"><%= f.text_area :comment, :cols=>50, :rows => 3 -%></span>
+  </p>
+
+   <%= content_tag :button, :type => :submit, :name => :commit do %>
+   <% end %>
+
+   </div>
+<% end -%>

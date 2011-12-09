@@ -1,6 +1,7 @@
 PATH
   remote: vendor/engines
   specs:
+    refinerycms-enrollments (1.0)
     refinerycms-menu_blocks (1.0)
 
 GEM
@@ -175,6 +176,7 @@ DEPENDENCIES
   mysql2 (< 0.3)
   refinerycms (~> 1.0.9)
   refinerycms-blog (~> 1.6)
+  refinerycms-enrollments (= 1.0)!
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0)
   refinerycms-menu_blocks (= 1.0)!

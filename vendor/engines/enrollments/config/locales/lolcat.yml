@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    enrollments:
+      title: Enrollments
+  admin:
+    enrollments:
+      actions:
+        create_new: CREATE NEW Enrollment
+        reorder: REORDR Enrollments
+        reorder_done: DUN REORDERIN Enrollments
+      records:
+        title: Enrollments
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Enrollments YET. CLICK "CREATE NEW Enrollment" 2 ADD UR FURST enrollment.
+      enrollment:
+        view_live_html: VIEW DIS enrollment LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS enrollment
+        delete: REMOOV DIS enrollment FOREVR
+  enrollments:
+    show:
+      other: OTHR Enrollments
