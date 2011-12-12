@@ -110,7 +110,9 @@
 
       <script>
       $(document).ready(function(){
-         $("#nameblock").html($("#u<%= current_year.title%>").html() );
+         <% if current_year %>
+           $("#nameblock").html($("#u<%= current_year.title%>").html() );
+         <% end%>
          <%= jq_block.html_safe %>
       });
       </script>
