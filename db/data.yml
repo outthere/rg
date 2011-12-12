@@ -6451,34 +6451,9 @@ refinery_settings:
     - !!null 
     - text_area
   - - 47
-    - Partner Form of cooperation
-    - '---
-
-      :en:
-
-      - Partner
-
-      - Mentor
-
-      - Consultant
-
-      :ru:
-
-      - Partner
-
-      - Mentor
-
-      - Consultant
-
-      :es:
-
-      - Partner
-
-      - Mentor
-
-      - Consultant
-
-'
+    - partner_form_of_cooperation
+    - "---\r\n:en:\r\n- Partner\r\n- Mentor\r\n- Consultant\r\n:ru:\r\n- Partner\r\n-
+      Mentor\r\n- Consultant\r\n:es:\r\n- Partner\r\n- Mentor\r\n- Consultant\r\n"
     - true
     - 2011-12-10 18:26:38.000000000Z
     - 2011-12-10 22:37:04.000000000Z

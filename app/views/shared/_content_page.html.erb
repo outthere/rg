@@ -44,11 +44,14 @@
       jq_block=""
       persons_block={}
       current_year=nil
+      current_year_id=nil
+      current_year_content = ''
       years.each do |val|
         years_block << ' <li'
         if my_path(@page.id).include?(val.id)
           years_block << ' class="act"'
           current_year = val
+          current_year_id = val.id
         end
         years_block << '><a id="a'
         years_block << val.title
@@ -89,7 +92,9 @@
           <div class="prev2"><i></i></div>
           <div class="scroller">
               <ul class="items" id="nameblock">
-                <%=  persons_block.values.first.html_safe %>
+                <%=
+                      persons_block.values.first.html_safe
+                %>
               </ul>
           </div>
       </div>
@@ -105,6 +110,7 @@
 
       <script>
       $(document).ready(function(){
+         $("#nameblock").html($("#u<%= current_year.title%>").html() );
          <%= jq_block.html_safe %>
       });
       </script>

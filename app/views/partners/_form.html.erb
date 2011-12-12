@@ -6,8 +6,6 @@
 
     %>
 
-
-
     <div class="form big">
         <div class="top"></div>
         <div class="bot"></div>
@@ -28,8 +26,8 @@
     </p>
 
     <p>
-        <%= f.label :cooperation -%>
-        <%= f.select :when_to_start, options_for_select(partner_form_of_cooperation, params[:cooperation]) -%>
+        <%= f.label :cooperation, "Form of cooperation" -%>
+        <%= f.select :cooperation, options_for_select(partner_form_of_cooperation, params[:cooperation]) -%>
         <%#= f.text_field :cooperation  -%>
     </p>
 
@@ -39,10 +37,9 @@
     </p>
 
     <p>
-        <%= f.label :phone -%>
+        <%= f.label :phone, "Phone number" -%>
         <%= f.text_field :phone  -%>
     </p>
-
 
    <%= content_tag :button, :type => :submit, :name => :commit do %>
    <% end %>
