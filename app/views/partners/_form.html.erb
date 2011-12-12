@@ -1,0 +1,51 @@
+<%= form_for @partner, :html => { :method => 'post' } do |f| -%>
+    <%
+       partner_form_of_cooperation =[]
+
+       partner_form_of_cooperation=RefinerySetting.find_by_name( :partner_form_of_cooperation ).value[locale].each { |val| partner_form_of_cooperation << [val,val] }
+
+    %>
+
+
+
+    <div class="form big">
+        <div class="top"></div>
+        <div class="bot"></div>
+
+      <p>
+        <%= f.label :name -%>
+        <%= f.text_field :name, :class => 'larger widest'  -%>
+      </p>
+
+    <p>
+        <%= f.label :company -%>
+        <%= f.text_field :company  -%>
+    </p>
+
+    <p>
+        <%= f.label :position -%>
+        <%= f.text_field :position  -%>
+    </p>
+
+    <p>
+        <%= f.label :cooperation -%>
+        <%= f.select :when_to_start, options_for_select(partner_form_of_cooperation, params[:cooperation]) -%>
+        <%#= f.text_field :cooperation  -%>
+    </p>
+
+    <p>
+        <%= f.label :email -%>
+        <%= f.text_field :email  -%>
+    </p>
+
+    <p>
+        <%= f.label :phone -%>
+        <%= f.text_field :phone  -%>
+    </p>
+
+
+   <%= content_tag :button, :type => :submit, :name => :commit do %>
+   <% end %>
+
+   </div>
+<% end -%>

@@ -87,4 +87,25 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def show_page_block(constant_name, part = 'Body')
+
+    #   Don't  work !!!!!!!!!!!!!!!!!!!!!
+
+    ptmp=Page.find_by_constant_name(constant_name)#.parts(:title =>part)
+
+    return ptmp.parts.first.inspect
+    return Page.find_by_constant_name('partners').class.name
+
+    return ptmp.class.name + ptmp.inspect
+#ptmp.parts.class.name
+    if ptmp[part]
+ 1#     ptmp[part].html_safe
+    else
+      "<b style=\"color:red;font-size:24\">No content block with name '#{constant_name}'  and language ''<b>"
+    end
+
+#    "******************************<br>" + constant_name.class.name + "<br>******************************"
+
+  end
+
 end

@@ -41,6 +41,58 @@ blog_posts:
       it to make a type specimen book.&#160;"
 
 ---
+copywriting_phrase_translations:
+  columns:
+  - id
+  - copywriting_phrase_id
+  - locale
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - en
+    - Home
+    - 2011-12-12 10:15:03.000000000Z
+    - 2011-12-12 10:15:30.000000000Z
+  - - 2
+    - 1
+    - es
+    - Home - es
+    - 2011-12-12 10:16:04.000000000Z
+    - 2011-12-12 10:16:04.000000000Z
+  - - 3
+    - 1
+    - ru
+    - Home - ru
+    - 2011-12-12 10:16:21.000000000Z
+    - 2011-12-12 10:16:21.000000000Z
+
+---
+copywriting_phrases:
+  columns:
+  - id
+  - name
+  - default
+  - value
+  - scope
+  - page_id
+  - created_at
+  - updated_at
+  - phrase_type
+  records: 
+  - - 1
+    - home_link_text
+    - !!null 
+    - Home - ru
+    - default
+    - !!null 
+    - 2011-12-12 10:15:03.000000000Z
+    - 2011-12-12 10:16:48.000000000Z
+    - text
+
+---
 enrollments:
   columns:
   - id
@@ -2358,6 +2410,140 @@ page_part_translations:
     - !!null 
     - 2011-12-10 22:49:32.000000000Z
     - 2011-12-10 22:49:32.000000000Z
+  - - 363
+    - 176
+    - en
+    - ! "<div class=\"img\"><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"297\" height=\"174\" /></div>\r\n<h2>Benefits</h2>\r\n\t\t\t<p>I
+      once more dived within the skeleton. From their arrow-slit in the skull, the
+      priests perceived me taking the altitude of the final rib, \"How now\" they
+      shouted</p>\r\n\t\t\t<p><a href=\"#\">Learn more</a>\r\n</p>\r\n"
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 11:35:06.000000000Z
+  - - 364
+    - 177
+    - en
+    - ''
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 09:51:38.000000000Z
+  - - 365
+    - 176
+    - ru
+    - ! "<div class=\"img\"><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"297\" height=\"174\" /></div>\r\n<h2>Benefits</h2>\r\n\t\t\t<p>I
+      once more dived within the skeleton. From their arrow-slit in the skull, the
+      priests perceived me taking the altitude of the final rib, \"How now\" they
+      shouted</p>\r\n\t\t\t<p><a href=\"#\">Learn more</a>\r\n</p>\r\n"
+    - 2011-12-12 09:59:44.000000000Z
+    - 2011-12-12 11:35:59.000000000Z
+  - - 366
+    - 177
+    - ru
+    - ''
+    - 2011-12-12 09:59:44.000000000Z
+    - 2011-12-12 09:59:44.000000000Z
+  - - 367
+    - 176
+    - es
+    - ! "<div class=\"img\"><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"297\" height=\"174\" /></div>\r\n<h2>Benefits</h2>\r\n\t\t\t<p>I
+      once more dived within the skeleton. From their arrow-slit in the skull, the
+      priests perceived me taking the altitude of the final rib, \"How now\" they
+      shouted</p>\r\n\t\t\t<p><a href=\"#\">Learn more</a>\r\n</p>\r\n"
+    - 2011-12-12 10:00:01.000000000Z
+    - 2011-12-12 11:36:14.000000000Z
+  - - 368
+    - 177
+    - es
+    - ''
+    - 2011-12-12 10:00:01.000000000Z
+    - 2011-12-12 10:00:01.000000000Z
+  - - 369
+    - 147
+    - ru
+    - <p>Want to go the Ruby way? Russian</p>
+    - 2011-12-12 11:21:17.000000000Z
+    - 2011-12-12 11:21:17.000000000Z
+  - - 370
+    - 148
+    - ru
+    - ''
+    - 2011-12-12 11:21:17.000000000Z
+    - 2011-12-12 11:21:17.000000000Z
+  - - 371
+    - 147
+    - es
+    - <p>Want to go the Ruby way? - es</p>
+    - 2011-12-12 11:21:47.000000000Z
+    - 2011-12-12 11:21:47.000000000Z
+  - - 372
+    - 148
+    - es
+    - ''
+    - 2011-12-12 11:21:47.000000000Z
+    - 2011-12-12 11:21:47.000000000Z
+  - - 373
+    - 145
+    - ru
+    - ! "<p><a href=\"http://altoros.com\" title=\"http://altoros.com\"><img src=\"/system/images/BAhbBlsHOgZmSSItMjAxMS8xMi8wNi8xMF8zNl80M185NDJfbG9nb19hbHRvcm9zLnBuZwY6BkVU/logo_altoros.png\"
+      title=\"Logo Altoros\" alt=\"Logo Altoros\" width=\"173\" height=\"34\" /></a>\r\n</p>\r\n<p><a
+      href=\"http://www.rightscale.com\" title=\"http://www.rightscale.com\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIwMjAxMS8xMi8wNi8xMF8zN18zNl85NTRfbG9nb19yaWdodHNjYWxlLnBuZwY6BkVU/logo_rightscale.png\"
+      title=\"Logo Rightscale\" alt=\"Logo Rightscale\" width=\"161\" height=\"31\"
+      /></a>\r\n</p>\r\n<p><a href=\"http://www.engineyard.com/\" title=\"http://www.engineyard.com/\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIrMjAxMS8xMi8wNi8xMF8zN18xNl80NDJfbG9nb19leWFyZC5wbmcGOgZFVA/logo_eyard.png\"
+      title=\"Logo Eyard\" alt=\"Logo Eyard\" width=\"129\" height=\"41\" /></a>\r\n</p>\r\n\r\n"
+    - 2011-12-12 11:22:57.000000000Z
+    - 2011-12-12 11:27:51.000000000Z
+  - - 374
+    - 146
+    - ru
+    - ''
+    - 2011-12-12 11:22:57.000000000Z
+    - 2011-12-12 11:22:57.000000000Z
+  - - 375
+    - 145
+    - es
+    - ! "<p><a href=\"http://altoros.com\" title=\"http://altoros.com\"><img src=\"/system/images/BAhbBlsHOgZmSSItMjAxMS8xMi8wNi8xMF8zNl80M185NDJfbG9nb19hbHRvcm9zLnBuZwY6BkVU/logo_altoros.png\"
+      title=\"Logo Altoros\" alt=\"Logo Altoros\" width=\"173\" height=\"34\" /></a>\r\n</p>\r\n<p><a
+      href=\"http://www.rightscale.com\" title=\"http://www.rightscale.com\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIwMjAxMS8xMi8wNi8xMF8zN18zNl85NTRfbG9nb19yaWdodHNjYWxlLnBuZwY6BkVU/logo_rightscale.png\"
+      title=\"Logo Rightscale\" alt=\"Logo Rightscale\" width=\"161\" height=\"31\"
+      /></a>\r\n</p>\r\n<p><a href=\"http://www.engineyard.com/\" title=\"http://www.engineyard.com/\"><img
+      src=\"/system/images/BAhbBlsHOgZmSSIrMjAxMS8xMi8wNi8xMF8zN18xNl80NDJfbG9nb19leWFyZC5wbmcGOgZFVA/logo_eyard.png\"
+      title=\"Logo Eyard\" alt=\"Logo Eyard\" width=\"129\" height=\"41\" /></a>\r\n</p>\r\n\r\n"
+    - 2011-12-12 11:23:14.000000000Z
+    - 2011-12-12 11:28:17.000000000Z
+  - - 376
+    - 146
+    - es
+    - ''
+    - 2011-12-12 11:23:15.000000000Z
+    - 2011-12-12 11:23:15.000000000Z
+  - - 377
+    - 174
+    - ru
+    - ''
+    - 2011-12-12 11:24:16.000000000Z
+    - 2011-12-12 11:24:16.000000000Z
+  - - 378
+    - 175
+    - ru
+    - ''
+    - 2011-12-12 11:24:16.000000000Z
+    - 2011-12-12 11:24:16.000000000Z
+  - - 379
+    - 174
+    - es
+    - ''
+    - 2011-12-12 11:24:38.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
+  - - 380
+    - 175
+    - es
+    - ''
+    - 2011-12-12 11:24:38.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
 
 ---
 page_parts:
@@ -3079,32 +3265,28 @@ page_parts:
       title=\"Logo Eyard\" alt=\"Logo Eyard\" width=\"129\" height=\"41\" /></a>\r\n</p>\r\n\r\n"
     - 0
     - 2011-12-06 08:34:06.000000000Z
-    - 2011-12-07 22:13:53.000000000Z
+    - 2011-12-12 11:28:17.000000000Z
   - - 146
     - 73
     - Side Body
     - ''
     - 1
     - 2011-12-06 08:34:06.000000000Z
-    - 2011-12-07 22:13:53.000000000Z
+    - 2011-12-12 11:28:17.000000000Z
   - - 147
     - 74
     - Body
-    - ! "<section>\r\n\t<a href=\"#\"><img src=\"images/pic_lead_r.png\" /></a>\r\n\t<a
-      href=\"#\"><img src=\"images/pic_lead_l.png\" /></a>\r\n\t<div>\r\n\t\t<h1>Want
-      to go the Ruby way? Become a Ruby On Rails Star!</h1>\r\n\t\t<p>An opportunity
-      for mid-level and senior developers with 2+years of experience in PHP, Java,
-      ASP.NET, C#</p>\r\n\t</div>\r\n</section>\r\n"
+    - <p>Want to go the Ruby way? - es</p>
     - 0
     - 2011-12-06 10:25:58.000000000Z
-    - 2011-12-06 10:46:03.000000000Z
+    - 2011-12-12 11:21:48.000000000Z
   - - 148
     - 74
     - Side Body
     - ''
     - 1
     - 2011-12-06 10:25:58.000000000Z
-    - 2011-12-06 10:46:03.000000000Z
+    - 2011-12-12 11:21:48.000000000Z
   - - 149
     - 75
     - Body
@@ -3284,17 +3466,35 @@ page_parts:
   - - 174
     - 90
     - Body
-    - !!null 
-    - !!null 
+    - ''
+    - 0
     - 2011-12-10 22:49:32.000000000Z
-    - 2011-12-10 22:49:32.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
   - - 175
     - 90
     - Side Body
-    - !!null 
-    - !!null 
+    - ''
+    - 1
     - 2011-12-10 22:49:32.000000000Z
-    - 2011-12-10 22:49:32.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
+  - - 176
+    - 91
+    - Body
+    - ! "<div class=\"img\"><img src=\"/system/images/BAhbBlsHOgZmSSIkMjAxMS8xMi8wNC8yMl8yOF8yMF81NjNfcGgxLmpwZwY6BkVU/ph1.jpg\"
+      title=\"Ph1\" alt=\"Ph1\" rel=\"225x255\" width=\"297\" height=\"174\" /></div>\r\n<h2>Benefits</h2>\r\n\t\t\t<p>I
+      once more dived within the skeleton. From their arrow-slit in the skull, the
+      priests perceived me taking the altitude of the final rib, \"How now\" they
+      shouted</p>\r\n\t\t\t<p><a href=\"#\">Learn more</a>\r\n</p>\r\n"
+    - 0
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 11:36:14.000000000Z
+  - - 177
+    - 91
+    - Side Body
+    - ''
+    - 1
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 11:36:14.000000000Z
 
 ---
 page_translations:
@@ -4322,6 +4522,69 @@ page_translations:
     - !!null 
     - 2011-12-10 22:49:32.000000000Z
     - 2011-12-10 22:49:32.000000000Z
+  - - 182
+    - 91
+    - en
+    - Benefits
+    - ''
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 09:51:38.000000000Z
+  - - 183
+    - 91
+    - ru
+    - Benefits - ru
+    - ''
+    - 2011-12-12 09:59:44.000000000Z
+    - 2011-12-12 09:59:44.000000000Z
+  - - 184
+    - 91
+    - es
+    - Benefits - es
+    - ''
+    - 2011-12-12 10:00:01.000000000Z
+    - 2011-12-12 10:00:01.000000000Z
+  - - 185
+    - 74
+    - ru
+    - Lead
+    - ''
+    - 2011-12-12 11:21:17.000000000Z
+    - 2011-12-12 11:21:17.000000000Z
+  - - 186
+    - 74
+    - es
+    - Lead
+    - ''
+    - 2011-12-12 11:21:47.000000000Z
+    - 2011-12-12 11:21:47.000000000Z
+  - - 187
+    - 73
+    - ru
+    - Partners banners
+    - ''
+    - 2011-12-12 11:22:57.000000000Z
+    - 2011-12-12 11:22:57.000000000Z
+  - - 188
+    - 73
+    - es
+    - Partners banners
+    - ''
+    - 2011-12-12 11:23:14.000000000Z
+    - 2011-12-12 11:23:14.000000000Z
+  - - 189
+    - 90
+    - ru
+    - Partners
+    - ''
+    - 2011-12-12 11:24:16.000000000Z
+    - 2011-12-12 11:24:16.000000000Z
+  - - 190
+    - 90
+    - es
+    - Partners
+    - ''
+    - 2011-12-12 11:24:38.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
 
 ---
 pages:
@@ -4971,7 +5234,7 @@ pages:
     - false
     - false
     - 83
-    - 84
+    - 90
     - !!null 
     - !!null 
     - blocks
@@ -4988,8 +5251,8 @@ pages:
     - none
     - false
     - false
-    - 85
-    - 90
+    - 91
+    - 96
     - !!null 
     - !!null 
     - bottom_menu
@@ -5006,8 +5269,8 @@ pages:
     - none
     - false
     - false
-    - 86
-    - 87
+    - 92
+    - 93
     - !!null 
     - !!null 
     - !!null 
@@ -5024,8 +5287,8 @@ pages:
     - none
     - false
     - false
-    - 88
-    - 89
+    - 94
+    - 95
     - !!null 
     - !!null 
     - !!null 
@@ -5078,8 +5341,8 @@ pages:
     - none
     - false
     - false
-    - 91
-    - 98
+    - 97
+    - 104
     - !!null 
     - !!null 
     - slides
@@ -5096,8 +5359,8 @@ pages:
     - none
     - false
     - false
-    - 94
-    - 95
+    - 100
+    - 101
     - !!null 
     - !!null 
     - !!null 
@@ -5114,8 +5377,8 @@ pages:
     - none
     - false
     - false
-    - 92
-    - 93
+    - 98
+    - 99
     - !!null 
     - !!null 
     - !!null 
@@ -5132,13 +5395,13 @@ pages:
     - none
     - false
     - false
-    - 96
-    - 97
+    - 102
+    - 103
     - !!null 
     - !!null 
     - !!null 
   - - 72
-    - !!null 
+    - 61
     - 47
     - !!null 
     - 2011-12-06 07:36:57.000000000Z
@@ -5150,17 +5413,17 @@ pages:
     - none
     - false
     - false
-    - 99
-    - 100
+    - 86
+    - 87
     - !!null 
     - !!null 
     - enroll
   - - 73
-    - !!null 
+    - 61
     - 48
     - !!null 
     - 2011-12-06 08:34:06.000000000Z
-    - 2011-12-07 22:13:53.000000000Z
+    - 2011-12-12 11:28:17.000000000Z
     - true
     - ''
     - !!null 
@@ -5168,17 +5431,17 @@ pages:
     - none
     - false
     - false
-    - 101
-    - 102
+    - 88
+    - 89
     - !!null 
     - !!null 
     - partners
   - - 74
-    - !!null 
+    - 61
     - 49
     - !!null 
     - 2011-12-06 10:25:58.000000000Z
-    - 2011-12-06 10:46:03.000000000Z
+    - 2011-12-12 11:21:48.000000000Z
     - true
     - ''
     - !!null 
@@ -5186,8 +5449,8 @@ pages:
     - none
     - false
     - false
-    - 103
-    - 104
+    - 84
+    - 85
     - !!null 
     - !!null 
     - lead
@@ -5430,7 +5693,7 @@ pages:
     - 57
     - !!null 
     - 2011-12-10 22:49:32.000000000Z
-    - 2011-12-10 22:49:32.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
     - true
     - /partners
     - ^/partners(\/|\/.+?|)$
@@ -5443,6 +5706,24 @@ pages:
     - !!null 
     - !!null 
     - !!null 
+  - - 91
+    - !!null 
+    - 58
+    - !!null 
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 11:36:14.000000000Z
+    - true
+    - ''
+    - !!null 
+    - true
+    - none
+    - false
+    - false
+    - 123
+    - 124
+    - !!null 
+    - !!null 
+    - benefits
 
 ---
 refinery_settings:
@@ -7727,6 +8008,78 @@ seo_meta:
     - !!null 
     - 2011-12-10 22:49:32.000000000Z
     - 2011-12-10 22:49:32.000000000Z
+  - - 189
+    - 182
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 09:51:38.000000000Z
+    - 2011-12-12 09:51:38.000000000Z
+  - - 190
+    - 183
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 09:59:44.000000000Z
+    - 2011-12-12 09:59:44.000000000Z
+  - - 191
+    - 184
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 10:00:01.000000000Z
+    - 2011-12-12 10:00:01.000000000Z
+  - - 192
+    - 185
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:21:17.000000000Z
+    - 2011-12-12 11:21:17.000000000Z
+  - - 193
+    - 186
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:21:47.000000000Z
+    - 2011-12-12 11:21:47.000000000Z
+  - - 194
+    - 187
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:22:57.000000000Z
+    - 2011-12-12 11:22:57.000000000Z
+  - - 195
+    - 188
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:23:14.000000000Z
+    - 2011-12-12 11:23:14.000000000Z
+  - - 196
+    - 189
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:24:16.000000000Z
+    - 2011-12-12 11:24:16.000000000Z
+  - - 197
+    - 190
+    - Page::Translation
+    - ''
+    - ''
+    - ''
+    - 2011-12-12 11:24:38.000000000Z
+    - 2011-12-12 11:24:38.000000000Z
 
 ---
 slugs:
@@ -9340,6 +9693,78 @@ slugs:
     - !!null 
     - 2011-12-10 22:49:32.000000000Z
     - en
+  - - 424
+    - benefits
+    - 91
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 09:51:38.000000000Z
+    - en
+  - - 425
+    - benefits-ru
+    - 91
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 09:59:44.000000000Z
+    - ru
+  - - 426
+    - benefits-es
+    - 91
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 10:00:01.000000000Z
+    - es
+  - - 427
+    - lead
+    - 74
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 11:21:17.000000000Z
+    - ru
+  - - 428
+    - lead
+    - 74
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 11:21:47.000000000Z
+    - es
+  - - 429
+    - partners-banners
+    - 73
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 11:22:57.000000000Z
+    - ru
+  - - 430
+    - partners-banners
+    - 73
+    - 1
+    - Page
+    - !!null 
+    - 2011-12-12 11:23:14.000000000Z
+    - es
+  - - 431
+    - partners
+    - 90
+    - 2
+    - Page
+    - !!null 
+    - 2011-12-12 11:24:16.000000000Z
+    - ru
+  - - 432
+    - partners
+    - 90
+    - 2
+    - Page
+    - !!null 
+    - 2011-12-12 11:24:38.000000000Z
+    - es
 
 ---
 taggings:
@@ -9399,78 +9824,82 @@ user_plugins:
   - name
   - position
   records: 
-  - - 23
+  - - 41
     - 1
     - refinery_dashboard
     - 0
-  - - 24
+  - - 42
     - 1
     - refinery_files
     - 1
-  - - 25
+  - - 43
     - 1
     - refinery_images
     - 2
-  - - 26
+  - - 44
     - 1
     - refinery_pages
     - 3
-  - - 27
+  - - 45
     - 1
     - refinery_settings
     - 4
-  - - 28
+  - - 46
     - 1
     - refinery_users
     - 5
-  - - 29
+  - - 47
     - 1
     - refinerycms_blog
     - 6
-  - - 30
+  - - 48
     - 1
     - refinerycms_base
     - 7
-  - - 31
+  - - 49
     - 1
     - refinery_core
     - 8
-  - - 32
+  - - 50
     - 1
     - refinery_dialogs
     - 9
-  - - 33
+  - - 51
     - 1
     - refinery_i18n
     - 10
-  - - 34
+  - - 52
     - 1
     - refinery_generators
     - 11
-  - - 35
+  - - 53
     - 1
     - page_images
     - 12
-  - - 36
+  - - 54
     - 1
     - menus
     - 13
-  - - 37
+  - - 55
     - 1
     - menu_blocks
     - 14
-  - - 38
+  - - 56
     - 1
     - refinery_inquiries
     - 15
-  - - 39
+  - - 57
     - 1
     - enrollments
     - 16
-  - - 40
+  - - 58
     - 1
     - partners
     - 17
+  - - 59
+    - 1
+    - refinerycms_copywriting
+    - 18
 
 ---
 users:

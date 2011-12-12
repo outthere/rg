@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111211102758) do
+ActiveRecord::Schema.define(:version => 20111212095714) do
 
   create_table "blog_categories", :force => true do |t|
     t.string   "title"
@@ -56,6 +56,29 @@ ActiveRecord::Schema.define(:version => 20111211102758) do
   end
 
   add_index "blog_posts", ["id"], :name => "index_blog_posts_on_id"
+
+  create_table "copywriting_phrase_translations", :force => true do |t|
+    t.integer  "copywriting_phrase_id"
+    t.string   "locale"
+    t.text     "value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "copywriting_phrase_translations", ["copywriting_phrase_id"], :name => "index_c8fbec01a288d0aef8ba987126084c4d06953304"
+
+  create_table "copywriting_phrases", :force => true do |t|
+    t.string   "name"
+    t.text     "default"
+    t.text     "value"
+    t.string   "scope"
+    t.integer  "page_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "phrase_type"
+  end
+
+  add_index "copywriting_phrases", ["name", "scope"], :name => "index_copywriting_phrases_on_name_and_scope"
 
   create_table "enrollments", :force => true do |t|
     t.string   "name"

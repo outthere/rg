@@ -92,4 +92,22 @@ Rg::Application.routes.draw do
     end
   end
 
+  resources :partners,
+            :only => :create,
+            :as => :partners,
+            :controller => 'partners' do
+    collection do
+      get :thank_you_for_enrolling
+    end
+  end
+
+  resources :partners, :only => [:index, :show, :new]
+    scope(:path => 'refinery', :as => 'admin', :module => 'admin') do
+      resources :partners, :except => :show do
+        collection do
+        post :update_positions
+      end
+    end
+  end
+
 end

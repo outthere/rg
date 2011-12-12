@@ -14,7 +14,7 @@
       <nav>
         <ul>
           <li>
-              <a href="/<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>">Home</a>
+              <a href="/<%= locale.to_s + '/'  if locale != RefinerySetting.find_by_name( :i18n_translation_current_locale ).value %>"><%= copywriting('home_link_text') %></a>
           </li>
           <% @page_path_arr = my_path(@page.id) if @page %>
           <%= render :partial => "/shared/menu_branch",
