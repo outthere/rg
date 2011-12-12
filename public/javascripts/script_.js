@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 	$('.prev1').click(function(){
 		period.data('scrollable').prev();
+
 	});
 	$('.next1').click(function(){
 		period.data('scrollable').next();
