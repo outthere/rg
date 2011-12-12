@@ -13,6 +13,11 @@
     #   params[:program_type]
     #   params[:when_to_start]
 
+
+        migration_files_arr=Dir.entries("db/migrate")
+
+
+
     %>
 
     <div class="form big">
@@ -27,29 +32,34 @@
   <p>
     <%= f.label :place -%>
     <%#= f.text_field :place  -%>
-    <%= select_tag 'place', options_for_select(training_place_of, params[:place]) %>
+    <%= f.select :place, options_for_select(training_place_of, params[:place]) -%>
   </p>
   
   <p>
     <%= f.label :program_type -%>
     <%#= f.text_field :program_type  -%>
-    <%= select_tag 'place', options_for_select(training_type_of_program, params[:place]) %>
+    <%= f.select :program_type, options_for_select(training_type_of_program, params[:place]) -%>
   </p>
   
   <p>
     <%= f.label :when_to_start -%>
     <%#= f.text_field :when_to_start  -%>
-    <%= select_tag 'place', options_for_select(training_when_to_start, params[:place]) %>
+    <%= f.select :when_to_start, options_for_select(training_when_to_start, params[:place]) -%>
   </p>
   
   <p>
     <%= f.label :resume -%>
     <%= f.file_field :resume %>
   </p>
-  
+
+  <p>
+    <%= f.label :email -%>
+    <%= f.text_field :email -%>
+  </p>
+
   <p>
     <%= f.label :phone -%>
-    <%= f.text_field :phone  -%>
+    <%= f.text_field :phone -%>
   </p>
   
   <p>

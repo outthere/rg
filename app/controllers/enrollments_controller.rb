@@ -3,8 +3,8 @@ class EnrollmentsController < ApplicationController
   before_filter :find_page, :only => [:create, :new]
   before_filter :find_all_menu_blocks
 
-  def thank_you
-    @page = Page.find_by_link_url("/contact/thank_you_for_enrollment", :include => [:parts, :slugs])
+  def thank_you_for_enrolling
+    @page = Page.find_by_link_url("/contact/thank_you_for_enrolling", :include => [:parts, :slugs])
   end
 
   def new
@@ -14,8 +14,10 @@ class EnrollmentsController < ApplicationController
   def create
     @enrollment = Enrollment.new(params[:enrollment])
 
+    puts params[:enrollment]
+
     if @enrollment.save
-      redirect_to thank_you_for_enrollment_enrollments_url
+      redirect_to thank_you_for_enrolling_enrollments_url
     else
       flash[:notice] = "Some error"
       render :action => 'new'

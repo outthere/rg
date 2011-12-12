@@ -1,0 +1,57 @@
+<% content_for :body_content_title do %>
+  <%= @partner.name %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @partner.name %>
+    </p>
+  </section>
+  <section>
+    <h1>Company</h1>
+    <p>
+      <%=raw @partner.company %>
+    </p>
+  </section>
+  <section>
+    <h1>Position</h1>
+    <p>
+      <%=raw @partner.position %>
+    </p>
+  </section>
+  <section>
+    <h1>Cooperation</h1>
+    <p>
+      <%=raw @partner.cooperation %>
+    </p>
+  </section>
+  <section>
+    <h1>Email</h1>
+    <p>
+      <%=raw @partner.email %>
+    </p>
+  </section>
+  <section>
+    <h1>Phone</h1>
+    <p>
+      <%=raw @partner.phone %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="partners">
+      <% @partners.each do |partner| %>
+        <li>
+          <%= link_to partner.name, partner_path(partner) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

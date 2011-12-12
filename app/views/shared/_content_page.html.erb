@@ -34,15 +34,23 @@
     end
   end
 -%>
-<% if my_path(@page.id).include?(Page.find_by_constant_name('success_stories').id) %>
+<% if @page && my_path(@page.id).include?(Page.find_by_constant_name('success_stories').id) %>
+
+
 
     <%
       years=@menu_pages.select { |m| m.parent_id == Page.find_by_constant_name('success_stories').id }
       years_block=""
       jq_block=""
       persons_block={}
+      current_year=nil
       years.each do |val|
-        years_block << ' <li><a id="a'
+        years_block << ' <li'
+        if my_path(@page.id).include?(val.id)
+          years_block << ' class="act"'
+          current_year = val
+        end
+        years_block << '><a id="a'
         years_block << val.title
         years_block << '">'
         years_block << val.title
@@ -55,9 +63,13 @@
         jq_block << '").html() );}); '
 
         persons=@menu_pages.select { |m| m.parent_id ==val.id }
+        persons_block["<ul class=\"items\" id=\"u#{val.title}\">"]=''
+
         persons.each do |one_person|
-          persons_block["<ul class=\"items\" id=\"u#{val.title}\">"]  =  "<li>" + link_to( one_person.title, one_person.url ) + "</li>"
+          persons_block["<ul class=\"items\" id=\"u#{val.title}\">"]  <<  "<li>" + link_to( one_person.title, one_person.url ) + "</li>"
         end
+        current_year_content = ''
+        current_year_content = persons_block["<ul class=\"items\" id=\"u#{val.title}\">"] if my_path(@page.id).include?(val.id)
       end
     %>
 
@@ -77,7 +89,7 @@
           <div class="prev2"><i></i></div>
           <div class="scroller">
               <ul class="items" id="nameblock">
-                <%= persons_block.values.first.html_safe %>
+                <%=  persons_block.values.first.html_safe %>
               </ul>
           </div>
       </div>
@@ -89,6 +101,7 @@
             </ul>
           <% end %>
       </div>
+
 
       <script>
       $(document).ready(function(){

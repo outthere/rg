@@ -34,6 +34,11 @@
   </div>
   
   <div class='field'>
+    <%= f.label :email -%>
+    <%= f.text_field :email  -%>
+  </div>
+  
+  <div class='field'>
     <%= f.label :phone -%>
     <%= f.text_field :phone  -%>
   </div>
@@ -51,7 +56,7 @@
       <div id='page_part_editors'>
         <% [:comment].each do |part| %>
           <div class='page_part' id='<%= part %>'>
-            <%= f.text_area part, :rows => 20, :class => 'wymeditor widest' -%>
+            <%= f.text_area part, :cols =>100, :rows => 10, :class => '-wymeditor -widest' -%>
           </div>
         <% end %>
       </div>

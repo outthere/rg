@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111208144830) do
+ActiveRecord::Schema.define(:version => 20111211102758) do
 
   create_table "blog_categories", :force => true do |t|
     t.string   "title"
@@ -68,6 +68,11 @@ ActiveRecord::Schema.define(:version => 20111208144830) do
     t.integer  "position"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "email"
+    t.string   "resume_file_name"
+    t.string   "resume_content_type"
+    t.integer  "resume_file_size"
+    t.datetime "resume_updated_at"
   end
 
   add_index "enrollments", ["id"], :name => "index_enrollments_on_id"
@@ -126,7 +131,7 @@ ActiveRecord::Schema.define(:version => 20111208144830) do
   add_index "menu_blocks", ["id"], :name => "index_menu_blocks_on_id"
 
   create_table "menu_pages", :force => true do |t|
-    t.integer  "manu_block_id"
+    t.integer  "menu_block_id"
     t.integer  "page_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -190,6 +195,19 @@ ActiveRecord::Schema.define(:version => 20111208144830) do
   add_index "pages", ["lft"], :name => "index_pages_on_lft"
   add_index "pages", ["parent_id"], :name => "index_pages_on_parent_id"
   add_index "pages", ["rgt"], :name => "index_pages_on_rgt"
+
+  create_table "partners", :force => true do |t|
+    t.string   "name"
+    t.string   "company"
+    t.string   "position",    :limit => 4
+    t.string   "cooperation"
+    t.string   "email"
+    t.string   "phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "partners", ["id"], :name => "index_partners_on_id"
 
   create_table "refinery_settings", :force => true do |t|
     t.string   "name"

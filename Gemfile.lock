@@ -3,6 +3,7 @@ PATH
   specs:
     refinerycms-enrollments (1.0)
     refinerycms-menu_blocks (1.0)
+    refinerycms-partners (1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -43,6 +44,7 @@ GEM
     babosa (0.3.5)
     bcrypt-ruby (3.0.1)
     builder (2.1.2)
+    cocaine (0.2.0)
     devise (1.4.9)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -67,6 +69,11 @@ GEM
     mime-types (1.17.2)
     mysql2 (0.2.17)
     orm_adapter (0.0.5)
+    paperclip (2.4.5)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
     polyglot (0.3.3)
     rack (1.2.4)
     rack-cache (1.1)
@@ -113,6 +120,7 @@ GEM
       filters_spam (~> 0.2)
       refinerycms-core (~> 1.0.3)
       seo_meta (~> 1.1.0)
+    refinerycms-copywriting (1.0.9)
     refinerycms-core (1.0.9)
       acts_as_indexed (~> 0.7)
       awesome_nested_set (~> 2.0)
@@ -174,11 +182,14 @@ PLATFORMS
 
 DEPENDENCIES
   mysql2 (< 0.3)
+  paperclip
   refinerycms (~> 1.0.9)
   refinerycms-blog (~> 1.6)
+  refinerycms-copywriting (~> 1.0.9)
   refinerycms-enrollments (= 1.0)!
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0)
   refinerycms-menu_blocks (= 1.0)!
   refinerycms-page-images (~> 1.0)
+  refinerycms-partners (= 1.0)!
   yaml_db
