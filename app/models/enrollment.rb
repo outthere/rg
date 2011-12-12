@@ -14,7 +14,8 @@ class Enrollment < ActiveRecord::Base
   validates :when_to_start, :presence => true,
             :length => { :maximum => 255 }
   validates :email, :presence => true,
-            :length => { :maximum => 255 }
+            :length => { :minimum => 6, :maximum => 255 },
+            :format => {:with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i}
   validates :phone, :presence => true,
             :length => { :maximum => 255 }
 

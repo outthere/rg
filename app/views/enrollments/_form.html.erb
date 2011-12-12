@@ -19,7 +19,7 @@
 
 
     %>
-    <%= render :partial => "error_messages" %>
+    <%= render :partial => "error_messages", :locals => { :object => @enrollment, :include_object_name => true } %>
 
     <div class="form big">
         <div class="top"></div>

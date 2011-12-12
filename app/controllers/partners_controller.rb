@@ -1,7 +1,8 @@
 class PartnersController < ApplicationController
 
+  before_filter :find_page, :only => [:create, :new]
+#  before_filter :find_page
   before_filter :find_all_partners
-  before_filter :find_page
 
   def become_partner_thank_you
     @page = Page.find_by_link_url("/partners/become_partner_thank_you", :include => [:parts, :slugs])
@@ -12,7 +13,7 @@ class PartnersController < ApplicationController
   end
 
   def create
-    @partner = Partner.new(params[:enrollment])
+    @partner = Partner.new(params[:partner])
 
 #    puts params[:partner]
 
@@ -48,5 +49,6 @@ protected
   def find_page
     @page = Page.where(:link_url => "/partners").first
   end
+
 
 end
